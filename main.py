@@ -1,18 +1,17 @@
 #!/usr/bin/env python3
 """
-Travel Assistant MCP Server
-A comprehensive MCP server providing travel-related services including:
-- Flight search and other travel services
+Travel Assistant MCP Server - Fixed Protocol Implementation
+A comprehensive MCP server providing travel-related services following proper MCP spec
 """
 
 import os
 import sys
 import json
 import asyncio
+import uuid
 from pathlib import Path
 import uvicorn
 from fastapi import FastAPI, Request, Response
-from fastapi.responses import StreamingResponse
 from sse_starlette.sse import EventSourceResponse
 
 # Add all server directories to Python path
@@ -25,7 +24,7 @@ sys.path.append(str(current_dir / "finance-search"))
 sys.path.append(str(current_dir / "geocoder"))
 
 def create_app():
-    """Create the main FastAPI application"""
+    """Create the main FastAPI application with proper MCP protocol support"""
     
     # Create main app
     app = FastAPI(
@@ -34,6 +33,9 @@ def create_app():
         description="Travel services MCP server providing flight search and other travel tools"
     )
     
+    # Global session storage
+    mcp_sessions = {}
+    
     @app.get("/")
     async def root():
         return {
@@ -41,425 +43,48 @@ def create_app():
             "version": "1.0.0",
             "status": "running",
             "services": ["flight-search", "hotel-search", "weather", "events", "finance", "geocoding"],
-            "endpoints": {
-                "/": "Service information",
-                "/health": "Health check",
-                "/docs": "API documentation"
-            }
+            "mcp_endpoint": "/sse",
+            "protocol": "MCP 2024-11-05"
         }
     
     @app.get("/health")
     async def health():
         return {"status": "healthy", "message": "Server is running"}
     
-    # Import and integrate the flight search tools
-    try:
-        from flight_server import search_flights, get_flight_details, filter_flights_by_price, filter_flights_by_airline
-        
-        # Add the flight search tools as API endpoints
-        @app.post("/search-flights")
-        async def api_search_flights(
-            departure_id: str,
-            arrival_id: str,
-            outbound_date: str,
-            return_date: str = None,
-            trip_type: int = 1,
-            adults: int = 1,
-            children: int = 0,
-            infants_in_seat: int = 0,
-            infants_on_lap: int = 0,
-            travel_class: int = 1,
-            currency: str = "USD",
-            country: str = "us",
-            language: str = "en",
-            max_results: int = 10
-        ):
-            """Search for flights"""
-            try:
-                result = search_flights(
-                    departure_id=departure_id,
-                    arrival_id=arrival_id,
-                    outbound_date=outbound_date,
-                    return_date=return_date,
-                    trip_type=trip_type,
-                    adults=adults,
-                    children=children,
-                    infants_in_seat=infants_in_seat,
-                    infants_on_lap=infants_on_lap,
-                    travel_class=travel_class,
-                    currency=currency,
-                    country=country,
-                    language=language,
-                    max_results=max_results
-                )
-                return {"success": True, "data": result}
-            except Exception as e:
-                return {"success": False, "error": str(e)}
-        
-        @app.get("/flight-details/{search_id}")
-        async def api_get_flight_details(search_id: str):
-            """Get detailed flight information"""
-            try:
-                result = get_flight_details(search_id)
-                return {"success": True, "data": result}
-            except Exception as e:
-                return {"success": False, "error": str(e)}
-        
-        print("✓ Successfully integrated flight search tools")
-        
-    except Exception as e:
-        print(f"Warning: Could not integrate flight search tools: {e}")
-    
-    # Hotel Search Integration
-    try:
-        from hotel_server import search_hotels, get_hotel_details
-        
-        @app.post("/search-hotels")
-        async def api_search_hotels(
-            location: str,
-            check_in_date: str,
-            check_out_date: str,
-            adults: int = 2,
-            children: int = 0,
-            rooms: int = 1,
-            currency: str = "USD",
-            country: str = "us",
-            language: str = "en",
-            max_results: int = 10
-        ):
-            """Search for hotels"""
-            try:
-                result = search_hotels(
-                    location=location,
-                    check_in_date=check_in_date,
-                    check_out_date=check_out_date,
-                    adults=adults,
-                    children=children,
-                    rooms=rooms,
-                    currency=currency,
-                    country=country,
-                    language=language,
-                    max_results=max_results
-                )
-                return {"success": True, "data": result}
-            except Exception as e:
-                return {"success": False, "error": str(e)}
-        
-        @app.get("/hotel-details/{search_id}")
-        async def api_get_hotel_details(search_id: str):
-            """Get detailed hotel information"""
-            try:
-                result = get_hotel_details(search_id)
-                return {"success": True, "data": result}
-            except Exception as e:
-                return {"success": False, "error": str(e)}
-        
-        print("✓ Successfully integrated hotel search tools")
-        
-    except Exception as e:
-        print(f"Warning: Could not integrate hotel search tools: {e}")
-    
-    # Weather Integration
-    try:
-        from weatherstack_server import get_current_weather, get_weather_forecast
-        
-        @app.get("/weather/current")
-        async def api_get_current_weather(
-            location: str,
-            units: str = "m"
-        ):
-            """Get current weather for a location"""
-            try:
-                result = get_current_weather(location=location, units=units)
-                return {"success": True, "data": result}
-            except Exception as e:
-                return {"success": False, "error": str(e)}
-        
-        @app.get("/weather/forecast")
-        async def api_get_weather_forecast(
-            location: str,
-            forecast_days: int = 3,
-            hourly: bool = False,
-            units: str = "m"
-        ):
-            """Get weather forecast for a location"""
-            try:
-                result = get_weather_forecast(
-                    location=location,
-                    forecast_days=forecast_days,
-                    hourly=hourly,
-                    units=units
-                )
-                return {"success": True, "data": result}
-            except Exception as e:
-                return {"success": False, "error": str(e)}
-        
-        print("✓ Successfully integrated weather tools")
-        
-    except Exception as e:
-        print(f"Warning: Could not integrate weather tools: {e}")
-    
-    # Event Search Integration
-    try:
-        from event_server import search_events, get_event_details
-        
-        @app.post("/search-events")
-        async def api_search_events(
-            query: str,
-            location: str = None,
-            date_range_start: str = None,
-            date_range_end: str = None,
-            category: str = None,
-            max_results: int = 10
-        ):
-            """Search for events"""
-            try:
-                result = search_events(
-                    query=query,
-                    location=location,
-                    date_range_start=date_range_start,
-                    date_range_end=date_range_end,
-                    category=category,
-                    max_results=max_results
-                )
-                return {"success": True, "data": result}
-            except Exception as e:
-                return {"success": False, "error": str(e)}
-        
-        @app.get("/event-details/{search_id}")
-        async def api_get_event_details(search_id: str):
-            """Get detailed event information"""
-            try:
-                result = get_event_details(search_id)
-                return {"success": True, "data": result}
-            except Exception as e:
-                return {"success": False, "error": str(e)}
-        
-        print("✓ Successfully integrated event search tools")
-        
-    except Exception as e:
-        print(f"Warning: Could not integrate event search tools: {e}")
-    
-    # Finance Integration
-    try:
-        from finance_server import convert_currency, lookup_stock
-        
-        @app.get("/finance/convert-currency")
-        async def api_convert_currency(
-            from_currency: str,
-            to_currency: str,
-            amount: float = 1.0
-        ):
-            """Convert currency"""
-            try:
-                result = convert_currency(
-                    from_currency=from_currency,
-                    to_currency=to_currency,
-                    amount=amount
-                )
-                return {"success": True, "data": result}
-            except Exception as e:
-                return {"success": False, "error": str(e)}
-        
-        @app.get("/finance/stock/{symbol}")
-        async def api_lookup_stock(symbol: str):
-            """Look up stock information"""
-            try:
-                result = lookup_stock(symbol=symbol)
-                return {"success": True, "data": result}
-            except Exception as e:
-                return {"success": False, "error": str(e)}
-        
-        print("✓ Successfully integrated finance tools")
-        
-    except Exception as e:
-        print(f"Warning: Could not integrate finance tools: {e}")
-    
-    # Geocoding Integration
-    try:
-        from geocoder_server import geocode_location, reverse_geocode, calculate_distance
-        
-        @app.get("/geocoding/geocode")
-        async def api_geocode_location(
-            location: str,
-            max_results: int = 1
-        ):
-            """Geocode a location to get coordinates"""
-            try:
-                result = geocode_location(
-                    location=location,
-                    max_results=max_results
-                )
-                return {"success": True, "data": result}
-            except Exception as e:
-                return {"success": False, "error": str(e)}
-        
-        @app.get("/geocoding/reverse")
-        async def api_reverse_geocode(
-            latitude: float,
-            longitude: float
-        ):
-            """Reverse geocode coordinates to get location"""
-            try:
-                result = reverse_geocode(
-                    latitude=latitude,
-                    longitude=longitude
-                )
-                return {"success": True, "data": result}
-            except Exception as e:
-                return {"success": False, "error": str(e)}
-        
-        @app.get("/geocoding/distance")
-        async def api_calculate_distance(
-            lat1: float,
-            lon1: float,
-            lat2: float,
-            lon2: float,
-            unit: str = "km"
-        ):
-            """Calculate distance between two coordinates"""
-            try:
-                result = calculate_distance(
-                    lat1=lat1,
-                    lon1=lon1,
-                    lat2=lat2,
-                    lon2=lon2,
-                    unit=unit
-                )
-                return {"success": True, "data": result}
-            except Exception as e:
-                return {"success": False, "error": str(e)}
-        
-        print("✓ Successfully integrated geocoding tools")
-        
-    except Exception as e:
-        print(f"Warning: Could not integrate geocoding tools: {e}")
-    
-    # Add MCP Protocol Support for Claude API Integration
-    @app.post("/sse")
+    # Proper MCP SSE Endpoint
+    @app.get("/sse")
     async def mcp_sse_endpoint(request: Request):
-        """MCP Server-Sent Events endpoint for Claude API integration"""
+        """MCP Server-Sent Events endpoint following proper MCP protocol"""
+        
+        # Generate session ID
+        session_id = str(uuid.uuid4())
         
         async def generate_mcp_events():
-            # Send initial connection event
-            yield {
-                "event": "connected",
-                "data": json.dumps({
-                    "type": "server_info",
-                    "server_name": "travel-assistant",
-                    "version": "1.0.0",
-                    "capabilities": {
-                        "tools": True,
-                        "resources": False,
-                        "prompts": False
-                    }
-                })
-            }
-            
-            # Send available tools
-            tools = [
-                {
-                    "name": "search_flights",
-                    "description": "Search for flights between airports",
-                    "inputSchema": {
-                        "type": "object",
-                        "properties": {
-                            "departure_id": {"type": "string", "description": "Departure airport code"},
-                            "arrival_id": {"type": "string", "description": "Arrival airport code"},
-                            "outbound_date": {"type": "string", "description": "Departure date YYYY-MM-DD"},
-                            "return_date": {"type": "string", "description": "Return date YYYY-MM-DD (optional)"},
-                            "adults": {"type": "integer", "default": 1}
-                        },
-                        "required": ["departure_id", "arrival_id", "outbound_date"]
-                    }
-                },
-                {
-                    "name": "search_hotels",
-                    "description": "Search for hotels in a location",
-                    "inputSchema": {
-                        "type": "object",
-                        "properties": {
-                            "location": {"type": "string", "description": "Location to search hotels"},
-                            "check_in_date": {"type": "string", "description": "Check-in date YYYY-MM-DD"},
-                            "check_out_date": {"type": "string", "description": "Check-out date YYYY-MM-DD"},
-                            "adults": {"type": "integer", "default": 2}
-                        },
-                        "required": ["location", "check_in_date", "check_out_date"]
-                    }
-                },
-                {
-                    "name": "get_current_weather",
-                    "description": "Get current weather for a location",
-                    "inputSchema": {
-                        "type": "object",
-                        "properties": {
-                            "location": {"type": "string", "description": "Location name or coordinates"}
-                        },
-                        "required": ["location"]
-                    }
-                },
-                {
-                    "name": "search_events",
-                    "description": "Search for events",
-                    "inputSchema": {
-                        "type": "object",
-                        "properties": {
-                            "query": {"type": "string", "description": "Event search query"},
-                            "location": {"type": "string", "description": "Location to search (optional)"}
-                        },
-                        "required": ["query"]
-                    }
-                },
-                {
-                    "name": "convert_currency",
-                    "description": "Convert currency amounts",
-                    "inputSchema": {
-                        "type": "object",
-                        "properties": {
-                            "from_currency": {"type": "string", "description": "Source currency code"},
-                            "to_currency": {"type": "string", "description": "Target currency code"},
-                            "amount": {"type": "number", "default": 1.0}
-                        },
-                        "required": ["from_currency", "to_currency"]
-                    }
-                },
-                {
-                    "name": "geocode_location",
-                    "description": "Get coordinates for a location",
-                    "inputSchema": {
-                        "type": "object",
-                        "properties": {
-                            "location": {"type": "string", "description": "Location to geocode"}
-                        },
-                        "required": ["location"]
-                    }
+            try:
+                # Send initial endpoint event with messages URL (required by MCP spec)
+                yield {
+                    "event": "endpoint",
+                    "data": f"/sse/messages?session_id={session_id}"
                 }
-            ]
-            
-            yield {
-                "event": "tools",
-                "data": json.dumps({
-                    "type": "tools_list",
-                    "tools": tools
-                })
-            }
-            
-            # Keep connection alive and handle tool calls
-            while True:
-                try:
-                    await asyncio.sleep(1)
+                
+                # Keep connection alive with periodic pings
+                while True:
+                    await asyncio.sleep(30)  # Ping every 30 seconds
                     yield {
-                        "event": "heartbeat",
-                        "data": json.dumps({"type": "ping", "timestamp": asyncio.get_event_loop().time()})
+                        "event": "ping",
+                        "data": "Server alive"
                     }
-                except asyncio.CancelledError:
-                    break
-                except Exception as e:
-                    yield {
-                        "event": "error",
-                        "data": json.dumps({"type": "error", "message": str(e)})
-                    }
-                    break
+                    
+            except asyncio.CancelledError:
+                # Cleanup session on disconnect
+                if session_id in mcp_sessions:
+                    del mcp_sessions[session_id]
+                raise
+            except Exception as e:
+                yield {
+                    "event": "error", 
+                    "data": f"Server error: {str(e)}"
+                }
         
         return EventSourceResponse(
             generate_mcp_events(),
@@ -471,57 +96,221 @@ def create_app():
             }
         )
     
-    # Add MCP tool execution endpoint
-    @app.post("/mcp/tool")
-    async def mcp_tool_execution(request: Request):
-        """Execute MCP tools for Claude API integration"""
+    @app.post("/sse/messages")
+    async def mcp_messages_endpoint(request: Request):
+        """Handle MCP JSON-RPC messages according to protocol spec"""
         try:
+            # Get session ID from query params
+            session_id = request.query_params.get("session_id")
+            if not session_id:
+                return {"jsonrpc": "2.0", "error": {"code": -32602, "message": "Missing session_id"}}
+            
+            # Parse JSON-RPC request
             data = await request.json()
-            tool_name = data.get("name")
-            tool_input = data.get("input", {})
+            request_id = data.get("id", 0)
             
-            # Route to appropriate tool function
-            if tool_name == "search_flights":
-                from flight_server import search_flights
-                result = search_flights(**tool_input)
-                return {"success": True, "result": result}
+            # Handle initialize request
+            if data.get("method") == "initialize":
+                return {
+                    "jsonrpc": "2.0",
+                    "id": request_id,
+                    "result": {
+                        "protocolVersion": "2024-11-05",
+                        "capabilities": {
+                            "tools": {"listChanged": True},
+                            "resources": {},
+                            "prompts": {},
+                            "logging": {}
+                        },
+                        "serverInfo": {
+                            "name": "travel-assistant",
+                            "version": "1.0.0"
+                        }
+                    }
+                }
             
-            elif tool_name == "search_hotels":
-                from hotel_server import search_hotels
-                result = search_hotels(**tool_input)
-                return {"success": True, "result": result}
+            # Handle tools/list request
+            elif data.get("method") == "tools/list":
+                tools = [
+                    {
+                        "name": "search_flights",
+                        "description": "Search for flights between airports",
+                        "inputSchema": {
+                            "type": "object",
+                            "properties": {
+                                "departure_id": {"type": "string", "description": "Departure airport code"},
+                                "arrival_id": {"type": "string", "description": "Arrival airport code"},
+                                "outbound_date": {"type": "string", "description": "Departure date YYYY-MM-DD"},
+                                "return_date": {"type": "string", "description": "Return date YYYY-MM-DD (optional)"},
+                                "adults": {"type": "integer", "default": 1}
+                            },
+                            "required": ["departure_id", "arrival_id", "outbound_date"]
+                        }
+                    },
+                    {
+                        "name": "search_hotels",
+                        "description": "Search for hotels in a location",
+                        "inputSchema": {
+                            "type": "object",
+                            "properties": {
+                                "location": {"type": "string", "description": "Location to search hotels"},
+                                "check_in_date": {"type": "string", "description": "Check-in date YYYY-MM-DD"},
+                                "check_out_date": {"type": "string", "description": "Check-out date YYYY-MM-DD"},
+                                "adults": {"type": "integer", "default": 2}
+                            },
+                            "required": ["location", "check_in_date", "check_out_date"]
+                        }
+                    },
+                    {
+                        "name": "get_current_weather",
+                        "description": "Get current weather for a location",
+                        "inputSchema": {
+                            "type": "object",
+                            "properties": {
+                                "location": {"type": "string", "description": "Location name or coordinates"}
+                            },
+                            "required": ["location"]
+                        }
+                    },
+                    {
+                        "name": "search_events",
+                        "description": "Search for events",
+                        "inputSchema": {
+                            "type": "object",
+                            "properties": {
+                                "query": {"type": "string", "description": "Event search query"},
+                                "location": {"type": "string", "description": "Location to search (optional)"}
+                            },
+                            "required": ["query"]
+                        }
+                    },
+                    {
+                        "name": "convert_currency",
+                        "description": "Convert currency amounts",
+                        "inputSchema": {
+                            "type": "object",
+                            "properties": {
+                                "from_currency": {"type": "string", "description": "Source currency code"},
+                                "to_currency": {"type": "string", "description": "Target currency code"},
+                                "amount": {"type": "number", "default": 1.0}
+                            },
+                            "required": ["from_currency", "to_currency"]
+                        }
+                    },
+                    {
+                        "name": "geocode_location",
+                        "description": "Get coordinates for a location",
+                        "inputSchema": {
+                            "type": "object",
+                            "properties": {
+                                "location": {"type": "string", "description": "Location to geocode"}
+                            },
+                            "required": ["location"]
+                        }
+                    }
+                ]
+                
+                return {
+                    "jsonrpc": "2.0",
+                    "id": request_id,
+                    "result": {
+                        "tools": tools
+                    }
+                }
             
-            elif tool_name == "get_current_weather":
-                from weatherstack_server import get_current_weather
-                result = get_current_weather(**tool_input)
-                return {"success": True, "result": result}
-            
-            elif tool_name == "search_events":
-                from event_server import search_events
-                result = search_events(**tool_input)
-                return {"success": True, "result": result}
-            
-            elif tool_name == "convert_currency":
-                from finance_server import convert_currency
-                result = convert_currency(**tool_input)
-                return {"success": True, "result": result}
-            
-            elif tool_name == "geocode_location":
-                from geocoder_server import geocode_location
-                result = geocode_location(**tool_input)
-                return {"success": True, "result": result}
+            # Handle tools/call request
+            elif data.get("method") == "tools/call":
+                params = data.get("params", {})
+                tool_name = params.get("name")
+                tool_arguments = params.get("arguments", {})
+                
+                try:
+                    # Route to appropriate tool function
+                    result = None
+                    
+                    if tool_name == "search_flights":
+                        from flight_server import search_flights
+                        result = search_flights(**tool_arguments)
+                        
+                    elif tool_name == "search_hotels":
+                        from hotel_server import search_hotels
+                        result = search_hotels(**tool_arguments)
+                        
+                    elif tool_name == "get_current_weather":
+                        from weatherstack_server import get_current_weather
+                        result = get_current_weather(**tool_arguments)
+                        
+                    elif tool_name == "search_events":
+                        from event_server import search_events
+                        result = search_events(**tool_arguments)
+                        
+                    elif tool_name == "convert_currency":
+                        from finance_server import convert_currency
+                        result = convert_currency(**tool_arguments)
+                        
+                    elif tool_name == "geocode_location":
+                        from geocoder_server import geocode_location
+                        result = geocode_location(**tool_arguments)
+                        
+                    else:
+                        raise ValueError(f"Unknown tool: {tool_name}")
+                    
+                    # Format result according to MCP spec
+                    return {
+                        "jsonrpc": "2.0",
+                        "id": request_id,
+                        "result": {
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "text": json.dumps(result, indent=2) if isinstance(result, (dict, list)) else str(result)
+                                }
+                            ],
+                            "isError": False
+                        }
+                    }
+                    
+                except Exception as e:
+                    return {
+                        "jsonrpc": "2.0",
+                        "id": request_id,
+                        "result": {
+                            "content": [
+                                {
+                                    "type": "text", 
+                                    "text": f"Error executing {tool_name}: {str(e)}"
+                                }
+                            ],
+                            "isError": True
+                        }
+                    }
             
             else:
-                return {"success": False, "error": f"Unknown tool: {tool_name}"}
-        
+                # Unknown method
+                return {
+                    "jsonrpc": "2.0",
+                    "id": request_id,
+                    "error": {
+                        "code": -32601,
+                        "message": f"Method not found: {data.get('method')}"
+                    }
+                }
+                
         except Exception as e:
-            return {"success": False, "error": str(e)}
+            return {
+                "jsonrpc": "2.0", 
+                "id": data.get("id", 0) if 'data' in locals() else 0,
+                "error": {
+                    "code": -32603,
+                    "message": f"Internal error: {str(e)}"
+                }
+            }
     
     return app
 
 def main():
     """Main entry point"""
-    print("Travel Assistant MCP Server")
+    print("Travel Assistant MCP Server (Fixed Protocol)")
     print("Initializing...")
     
     # Create the app
@@ -541,7 +330,8 @@ def main():
     host = "0.0.0.0"
     
     print(f"Starting server on {host}:{port}")
-    print("API Documentation available at: /docs")
+    print("MCP Endpoint: /sse")
+    print("Protocol: MCP 2024-11-05 with proper JSON-RPC 2.0")
     
     # Start the server
     uvicorn.run(app, host=host, port=port)
