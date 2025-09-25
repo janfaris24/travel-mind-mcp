@@ -1,0 +1,3756 @@
+{
+  "search_metadata": {
+    "search_id": "Miami_2026-05-02_2026-05-05_20250924_215327",
+    "location": "Miami",
+    "check_in_date": "2026-05-02",
+    "check_out_date": "2026-05-05",
+    "guests": {
+      "adults": 2,
+      "children": 0,
+      "children_ages": null
+    },
+    "search_type": "hotels",
+    "currency": "USD",
+    "filters": {
+      "sort_by": 8,
+      "hotel_class": [
+        3,
+        4,
+        5
+      ],
+      "amenities": null,
+      "property_types": null,
+      "brands": null,
+      "free_cancellation": false,
+      "special_offers": false,
+      "bedrooms": null
+    },
+    "search_timestamp": "2025-09-24T21:53:27.146591"
+  },
+  "search_information": {
+    "total_results": 120
+  },
+  "properties": [
+    {
+      "type": "hotel",
+      "name": "Sentral Wynwood | Furnished Apartments Miami",
+      "link": "https://www.sentral.com/miami/wynwood/stay?utm_source=google&utm_medium=gbp",
+      "property_token": "ChoI_9HC_q2q-__VARoNL2cvMTFuczV6MWJrMRAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-05-02&check_out_date=2026-05-05&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&hotel_class=3%2C4%2C5&property_token=ChoI_9HC_q2q-__VARoNL2cvMTFuczV6MWJrMRAB&q=Miami&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 25.801679399999998,
+        "longitude": -80.19615809999999
+      },
+      "check_in_time": "4:00\u202fPM",
+      "check_out_time": "11:00\u202fAM",
+      "rate_per_night": {
+        "lowest": "$283",
+        "extracted_lowest": 283,
+        "before_taxes_fees": "$251",
+        "extracted_before_taxes_fees": 251
+      },
+      "total_rate": {
+        "lowest": "$849",
+        "extracted_lowest": 849,
+        "before_taxes_fees": "$752",
+        "extracted_before_taxes_fees": 752
+      },
+      "nearby_places": [
+        {
+          "name": "Wynwood Walls",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "5 min"
+            }
+          ]
+        },
+        {
+          "name": "NW 2 Av & NW 25 St",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "5 min"
+            }
+          ]
+        },
+        {
+          "name": "Miami International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "23 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "54 min"
+            }
+          ]
+        },
+        {
+          "name": "ZURI Restaurant Miami",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "4-star hotel",
+      "extracted_hotel_class": 4,
+      "images": [
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/YRJ6zmS-ofqPwX_naVoR30O7hKHQsRrYmU24Z6YmcGhIiZWxaJQXWMI_dQQmViZhCw0YXGa6Unpqb3gi-AALjte6JeCLda9IudoawpnSa6vhtm1HFAMVdMqYDhMidQ4zbA7X409RaiEYPV2BclE_O6X3VP_gbQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/46000000/45220000/45218000/45217959/328a9bc6_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/WUFxD6s0nk-rZ5ArW8RSte2eyT9ItAk2cvRg5kDBXs-YsQz4sEL_U9GBfrRnvm4STguJmf7ktFgBDA1vzFNFixTgbnsvINhXzwlgM9M4-9icrVdZ-Lj-4T8dlLR130V9KfBWQsCsOabEtZjQibQgYacP35Tpr-w=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/7/0/148/542/213/Sentral_Wynwood_Studio_326_008_O.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMsNoZL2EerPuKasLAWZhnIXn_5GyEqg8auvetG=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMsNoZL2EerPuKasLAWZhnIXn_5GyEqg8auvetG=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNpYjf4-7EJTXPRpomFtehvudLjecWJNLYJI99D=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNpYjf4-7EJTXPRpomFtehvudLjecWJNLYJI99D=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNnd0CHsQevr1-dNxb7VK2GRWDkLMhgC1T-j0mK=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNnd0CHsQevr1-dNxb7VK2GRWDkLMhgC1T-j0mK=s10000"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/GVcoZacwGdXpnMCCWLvJmSUkVjHbj97mu-tH_c_VEK6jCgFYUPlpb4yiT5sjTqK_Mlfz0fCHJB-im7czIf8OXHYKlAUsSK9ThYfX74cbDj5UmvyHz6oXyhT4jPk-6qHLJZs2SQx5cWOPS5PZM92Ya_6tEPlWdQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/46000000/45220000/45218000/45217959/8928bd6a_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/PK2ovI9T9loINXWD2evsn2R5PSjnY_6iHcFYzt0viiy_a7pyF8gasx8sszuy-d8blkB3P_m12yooqJ5BkAatvr325bHiBAVIPgXYvViLvVNL6g2KTo-fZDFhtGYXbtT36CUsrtXhPrky5yV_FDvWgYaYWDrw8NM=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/d3/a6/51/domio-wynwood.jpg?w=1300&h=800&s=1"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/jZUaOU82bH4F37FaMQAUx3qPudCol21BuB1eBZ8-gfeHiA8Q08bQ7gjm1fwj1TZS4paDLaCxah9jk74JVRC36YT_hDq0biqirgZ1t9-lZ6mA7PJsDYnBO5jg7imhhwNQ3jgRh-YUZtLzroH0gDPg8wvUIvePXg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/7/0/148/544/234/Sentral_Chicago-315_O.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/sNO-GJZC-B_75bUeoH_RfSOi-FzvNidRyzxyckaVc6SB6oyDzN9E2pZObVT0Gsfw1yqPbzDojvpZmizhLkgZ5YHq8EudqlTvgqnWwlyIx9WkZbY0Iz806YAee7qIBoDtwAtoqqWaNRD81i8MJ4AWkGDFJHW3Ow=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/7/0/148/542/866/Wynwood_Neighborhood_Scotch-and-Soda-(Sonya-Revell)-9878_O.jpg"
+        }
+      ],
+      "overall_rating": 4.9,
+      "reviews": 1018,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 952
+        },
+        {
+          "stars": 4,
+          "count": 30
+        },
+        {
+          "stars": 3,
+          "count": 9
+        },
+        {
+          "stars": 2,
+          "count": 10
+        },
+        {
+          "stars": 1,
+          "count": 17
+        }
+      ],
+      "location_rating": 4.6,
+      "reviews_breakdown": [
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 584,
+          "positive": 564,
+          "negative": 14,
+          "neutral": 6
+        },
+        {
+          "name": "Fitness",
+          "description": "Fitness",
+          "total_mentioned": 144,
+          "positive": 135,
+          "negative": 3,
+          "neutral": 6
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 203,
+          "positive": 197,
+          "negative": 3,
+          "neutral": 3
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 333,
+          "positive": 307,
+          "negative": 17,
+          "neutral": 9
+        },
+        {
+          "name": "Pool",
+          "description": "Pool",
+          "total_mentioned": 104,
+          "positive": 99,
+          "negative": 2,
+          "neutral": 3
+        },
+        {
+          "name": "Room",
+          "description": "Room amenities",
+          "total_mentioned": 98,
+          "positive": 83,
+          "negative": 9,
+          "neutral": 6
+        }
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Parking ($)",
+        "Outdoor pool",
+        "Air conditioning",
+        "Pet-friendly",
+        "Fitness center",
+        "Kitchen",
+        "Accessible"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Mandarin Oriental, Miami",
+      "description": "Luxury hotel with a private beach & an infinity pool, plus sophisticated dining & a spa.",
+      "link": "https://www.mandarinoriental.com/en/miami/brickell-key?src=loc.yext.momia.ggl",
+      "property_token": "ChcI7uLR18qD4MG_ARoKL20vMGMwMmh5bBAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-05-02&check_out_date=2026-05-05&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&hotel_class=3%2C4%2C5&property_token=ChcI7uLR18qD4MG_ARoKL20vMGMwMmh5bBAB&q=Miami&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 25.7649907,
+        "longitude": -80.1853951
+      },
+      "check_in_time": "3:00\u202fPM",
+      "check_out_time": "11:00\u202fAM",
+      "nearby_places": [
+        {
+          "name": "Bayfront Park",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "10 min"
+            }
+          ]
+        },
+        {
+          "name": "Brickell Av & SE 8 St",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "9 min"
+            }
+          ]
+        },
+        {
+          "name": "Miami International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "28 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "53 min"
+            }
+          ]
+        },
+        {
+          "name": "Crazy About You",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "6 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "5-star hotel",
+      "extracted_hotel_class": 5,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noD20q5NtnNCxlkVjXULCShhxQkRaiB1me5IpkqAGEFW_YzeyceGYu2YBpta4Q41XWFBCb1Ak9UWik6jnc35RBYLX5MZMtfUCVK3JvuJyAvVRIFqqaHvLdH2iRMUE1gLd4DF3ml=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgID63pGP2QE=s10000"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/_BUWZgL2kZSk4ubDF3hn5q_93b5-cRM4yhWPCk0j3LdCjJHD1ARB_xS20QIo1fYGKtz0YNH6_QyVDX5nHK4T8xNmXFuxl5wrJ5GnrGY9yH_W60NfBZMZMMY26D8_cXb4_i7RqUseQTBuMgv6HnmupCW0VX6h6Q=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/3/0/75/51/498/Spa_Couples_Suite_S.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/AGQeXW-PcboTNt2v0m6n1wOfQsug_SSdF-UhDynvW9VexHY9DtbyvjWuE4Q2NgTFsL976kKs0WbCgDghsCDv4Ie91BBHqi0N33_ZH_c5PAS1SocO26wcjH_OtNg7v1_uyf9-cJdsBtQkodbGcK9nM33Am7QR3w=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/2/0/66/509/525/Biscayne_Connecting_Room_S.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMUj59e1chPRGsyMfp8XmVkNOJdaeNFmlgoi7Jx=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMUj59e1chPRGsyMfp8XmVkNOJdaeNFmlgoi7Jx=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPDEU4sdXngrC9rgelAO2v_0mI94rE22_Qz7RLW=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPDEU4sdXngrC9rgelAO2v_0mI94rE22_Qz7RLW=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMsRERda8WCuLeHdioDOvBT5spUTypPgdaQZu3Y=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMsRERda8WCuLeHdioDOvBT5spUTypPgdaQZu3Y=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPBIzEIGUwKIRmu_eA0TscBt6CQ4cKFKWbUGHjI=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPBIzEIGUwKIRmu_eA0TscBt6CQ4cKFKWbUGHjI=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNXcoGoDiRR-mtEA7g02K8SvoZJ_EbuqzuQ9v9J=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNXcoGoDiRR-mtEA7g02K8SvoZJ_EbuqzuQ9v9J=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPZ9VZs6JgzpCOMQ-cTFdDEeALDD0FLtoBaJg4l=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPZ9VZs6JgzpCOMQ-cTFdDEeALDD0FLtoBaJg4l=s10000"
+        }
+      ],
+      "overall_rating": 4.7,
+      "reviews": 3080,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 2519
+        },
+        {
+          "stars": 4,
+          "count": 351
+        },
+        {
+          "stars": 3,
+          "count": 99
+        },
+        {
+          "stars": 2,
+          "count": 39
+        },
+        {
+          "stars": 1,
+          "count": 72
+        }
+      ],
+      "location_rating": 4.1,
+      "reviews_breakdown": [
+        {
+          "name": "Wellness",
+          "description": "Wellness",
+          "total_mentioned": 80,
+          "positive": 67,
+          "negative": 9,
+          "neutral": 4
+        },
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 255,
+          "positive": 211,
+          "negative": 28,
+          "neutral": 16
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 578,
+          "positive": 500,
+          "negative": 57,
+          "neutral": 21
+        },
+        {
+          "name": "Spa",
+          "description": "Spa",
+          "total_mentioned": 63,
+          "positive": 53,
+          "negative": 5,
+          "neutral": 5
+        },
+        {
+          "name": "Nature",
+          "description": "Nature and outdoor activities",
+          "total_mentioned": 176,
+          "positive": 154,
+          "negative": 14,
+          "neutral": 8
+        },
+        {
+          "name": "Room",
+          "description": "Room amenities",
+          "total_mentioned": 243,
+          "positive": 211,
+          "negative": 20,
+          "neutral": 12
+        }
+      ],
+      "amenities": [
+        "Breakfast ($)",
+        "Free Wi-Fi",
+        "Parking ($)",
+        "Outdoor pool",
+        "Hot tub",
+        "Air conditioning",
+        "Fitness center",
+        "Spa",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Full-service laundry",
+        "Accessible",
+        "Business center",
+        "Kid-friendly"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Four Seasons Hotel Miami",
+      "description": "Upscale hotel featuring a 2-acre pool area with cabanas, plus a spa, dining & bay views.",
+      "link": "https://www.fourseasons.com/miami/?utm_source=google&utm_medium=organicsearch&utm_campaign=tor-mia-hre-mid-seo-na&utm_content=na-na&utm_term=na",
+      "property_token": "ChUIys7f0sTV9adJGgkvbS8wNDNwa2IQAQ",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-05-02&check_out_date=2026-05-05&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&hotel_class=3%2C4%2C5&property_token=ChUIys7f0sTV9adJGgkvbS8wNDNwa2IQAQ&q=Miami&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 25.758964100000004,
+        "longitude": -80.19208429999999
+      },
+      "check_in_time": "3:00\u202fPM",
+      "check_out_time": "12:00\u202fPM",
+      "rate_per_night": {
+        "lowest": "$1,820",
+        "extracted_lowest": 1820,
+        "before_taxes_fees": "$1,617",
+        "extracted_before_taxes_fees": 1617
+      },
+      "total_rate": {
+        "lowest": "$5,461",
+        "extracted_lowest": 5461,
+        "before_taxes_fees": "$4,852",
+        "extracted_before_taxes_fees": 4852
+      },
+      "nearby_places": [
+        {
+          "name": "Vizcaya Museum & Gardens",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "9 min"
+            }
+          ]
+        },
+        {
+          "name": "Brickell Av & SE 14 Ter",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "2 min"
+            }
+          ]
+        },
+        {
+          "name": "Miami International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "27 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "45 min"
+            }
+          ]
+        },
+        {
+          "name": "Crazy About You",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "8 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "5-star hotel",
+      "extracted_hotel_class": 5,
+      "images": [
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/AjAuFvxJG6bUf8955BW5X7oMeVaOMFrioYxndA3c3N7sd6yrV94ICZ-Y9Hw7yFkSGaCXfTKoofq6G4RKkFGGh4h_CqDUsHsvJQqrhz3mhdJSiQatHaUjqBPcBMIZ8cs1gUHchSzhvDIq7PogUHm_XV0NAcJ44Bw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/83000000/82110000/82107400/82107323/8dacdb18_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOGVMOfYVuAcN7oHTMZClUSGNas7gIHGbUFXfFc=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOGVMOfYVuAcN7oHTMZClUSGNas7gIHGbUFXfFc=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMowbHZ_FY6MibZY9-diqZ3RLyx4hd35Af_BIJJ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMowbHZ_FY6MibZY9-diqZ3RLyx4hd35Af_BIJJ=s10000"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/y8yZj65XlQ7QZqmlEiDlAbM6XQkasecv-jOrXU6LR4h5yaDdiPUZpiYJ7BBBSKd_xFJ5OlM_HStvMQVoiXWtjZEAje-_HErQTce59Ydm09de8sJu7a1EGKtJJtEWG11_7lKIV5c-YiRSsJPgMy83fYFEs0TSFiQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/1000000/970000/966200/966115/0440e3d4_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOkcfV0soKZhE10bXkB8gIYAP_LP6luf1NF5tK7=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOkcfV0soKZhE10bXkB8gIYAP_LP6luf1NF5tK7=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/NN38FIqAi5CKrdYejP3poJdWE4AVDokdkvV2DYg9YrmzSvgwKnzO9FUn_C1bk222bFGAMyrfSEMTG11VOiLnmU1k2XnqLOFRotRiNzt6UiFnJQn2EkSReiUigedamwz38mIGMB8hUbLNyMspt6dW4x3yXQer9w=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/1000000/970000/966200/966115/036400cc_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMCHvCKfKx9wvEVgx-gLj5T1kjJf5hmbudIn414=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMCHvCKfKx9wvEVgx-gLj5T1kjJf5hmbudIn414=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMbS1YaXeMFEBK70nbp4qedJs1rIrnLSzFDEo9c=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMbS1YaXeMFEBK70nbp4qedJs1rIrnLSzFDEo9c=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOMAKig71VXN_bNsYKqHKltd0B6t40YbBxCKDyk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOMAKig71VXN_bNsYKqHKltd0B6t40YbBxCKDyk=s10000"
+        }
+      ],
+      "overall_rating": 4.7,
+      "reviews": 2779,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 2244
+        },
+        {
+          "stars": 4,
+          "count": 366
+        },
+        {
+          "stars": 3,
+          "count": 77
+        },
+        {
+          "stars": 2,
+          "count": 34
+        },
+        {
+          "stars": 1,
+          "count": 58
+        }
+      ],
+      "location_rating": 4.5,
+      "reviews_breakdown": [
+        {
+          "name": "Fitness",
+          "description": "Fitness",
+          "total_mentioned": 205,
+          "positive": 186,
+          "negative": 13,
+          "neutral": 6
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 462,
+          "positive": 390,
+          "negative": 54,
+          "neutral": 18
+        },
+        {
+          "name": "Pool",
+          "description": "Pool",
+          "total_mentioned": 126,
+          "positive": 120,
+          "negative": 5,
+          "neutral": 1
+        },
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 144,
+          "positive": 124,
+          "negative": 14,
+          "neutral": 6
+        },
+        {
+          "name": "Bar",
+          "description": "Bar or lounge",
+          "total_mentioned": 106,
+          "positive": 87,
+          "negative": 16,
+          "neutral": 3
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 387,
+          "positive": 350,
+          "negative": 26,
+          "neutral": 11
+        }
+      ],
+      "amenities": [
+        "Breakfast ($)",
+        "Free Wi-Fi",
+        "Parking ($)",
+        "Outdoor pool",
+        "Hot tub",
+        "Air conditioning",
+        "Pet-friendly",
+        "Fitness center",
+        "Spa",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Kitchen in some rooms",
+        "Full-service laundry",
+        "Accessible",
+        "Business center",
+        "Kid-friendly",
+        "Smoke-free property"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Mayfair House Hotel & Garden",
+      "link": "https://www.mayfairhousemiami.com/?utm_source=google-gbp&utm_medium=organic&utm_campaign=gbp",
+      "property_token": "ChkIvIviyrXmuodJGg0vZy8xMXRud241ZjM5EAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-05-02&check_out_date=2026-05-05&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&hotel_class=3%2C4%2C5&property_token=ChkIvIviyrXmuodJGg0vZy8xMXRud241ZjM5EAE&q=Miami&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 25.7289547,
+        "longitude": -80.2413687
+      },
+      "check_in_time": "3:00\u202fPM",
+      "check_out_time": "12:00\u202fPM",
+      "rate_per_night": {
+        "lowest": "$453",
+        "extracted_lowest": 453,
+        "before_taxes_fees": "$405",
+        "extracted_before_taxes_fees": 405
+      },
+      "total_rate": {
+        "lowest": "$1,358",
+        "extracted_lowest": 1358,
+        "before_taxes_fees": "$1,216",
+        "extracted_before_taxes_fees": 1216
+      },
+      "deal": "22% less than usual",
+      "deal_description": "Deal",
+      "nearby_places": [
+        {
+          "name": "Vizcaya Museum & Gardens",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "8 min"
+            }
+          ]
+        },
+        {
+          "name": "Oak Av & Rice St",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        },
+        {
+          "name": "Miami International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "30 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "1 hr"
+            }
+          ]
+        },
+        {
+          "name": "CRAFT Coconut Grove",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "5-star hotel",
+      "extracted_hotel_class": 5,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOGas4lc2MU32ZUPSKcO-btV3NpXwxurxana-I=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOGas4lc2MU32ZUPSKcO-btV3NpXwxurxana-I=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMrPbKg6JK6DbJSyGezyyi5Pp5rzhNlvKk4ggc=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMrPbKg6JK6DbJSyGezyyi5Pp5rzhNlvKk4ggc=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMOO-OIQKFoa6GE5LKV1jNzqgcqNKEm9FCVx3c=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMOO-OIQKFoa6GE5LKV1jNzqgcqNKEm9FCVx3c=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOqMtsDkUPzv5vDg_-xFaAvvHVRT6Z4y_KS7zo=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOqMtsDkUPzv5vDg_-xFaAvvHVRT6Z4y_KS7zo=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipO5O5SPZytsAv2Q08FCwkswTpieHVdcWZPrkPo=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipO5O5SPZytsAv2Q08FCwkswTpieHVdcWZPrkPo=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMnhnp6aPly4U5gbmEATB3FwbAh2NoPEHIVxjM=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMnhnp6aPly4U5gbmEATB3FwbAh2NoPEHIVxjM=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMW1e0Jvvogyou4-1I88iUP8p-dlgg32r-iI2g=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMW1e0Jvvogyou4-1I88iUP8p-dlgg32r-iI2g=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMadOspvVK1IrRYVHTApudW4Z5mH9akaQSUhBw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMadOspvVK1IrRYVHTApudW4Z5mH9akaQSUhBw=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOKLDgYxi3Zqknrcrl90IakN0QS5bIrxu3l-HM=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOKLDgYxi3Zqknrcrl90IakN0QS5bIrxu3l-HM=s10000"
+        }
+      ],
+      "overall_rating": 4.7,
+      "reviews": 1283,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 1103
+        },
+        {
+          "stars": 4,
+          "count": 63
+        },
+        {
+          "stars": 3,
+          "count": 39
+        },
+        {
+          "stars": 2,
+          "count": 29
+        },
+        {
+          "stars": 1,
+          "count": 49
+        }
+      ],
+      "location_rating": 4.4,
+      "reviews_breakdown": [
+        {
+          "name": "Bar",
+          "description": "Bar or lounge",
+          "total_mentioned": 283,
+          "positive": 251,
+          "negative": 22,
+          "neutral": 10
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 537,
+          "positive": 455,
+          "negative": 74,
+          "neutral": 8
+        },
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 230,
+          "positive": 210,
+          "negative": 15,
+          "neutral": 5
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 334,
+          "positive": 264,
+          "negative": 49,
+          "neutral": 21
+        },
+        {
+          "name": "Parking",
+          "description": "Parking",
+          "total_mentioned": 106,
+          "positive": 82,
+          "negative": 19,
+          "neutral": 5
+        },
+        {
+          "name": "Couples",
+          "description": "Couple friendly",
+          "total_mentioned": 36,
+          "positive": 22,
+          "negative": 9,
+          "neutral": 5
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Free Wi-Fi",
+        "Parking ($)",
+        "Outdoor pool",
+        "Air conditioning",
+        "Pet-friendly",
+        "Fitness center",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Accessible",
+        "Kid-friendly",
+        "Smoke-free property"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Loews Coral Gables Hotel",
+      "link": "https://www.loewshotels.com/coral-gables",
+      "property_token": "ChkItvOmk9-1z6A-Gg0vZy8xMXN3bTBydGRrEAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-05-02&check_out_date=2026-05-05&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&hotel_class=3%2C4%2C5&property_token=ChkItvOmk9-1z6A-Gg0vZy8xMXN3bTBydGRrEAE&q=Miami&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 25.7447406,
+        "longitude": -80.2574254
+      },
+      "check_in_time": "4:00\u202fPM",
+      "check_out_time": "11:00\u202fAM",
+      "rate_per_night": {
+        "lowest": "$493",
+        "extracted_lowest": 493,
+        "before_taxes_fees": "$437",
+        "extracted_before_taxes_fees": 437
+      },
+      "total_rate": {
+        "lowest": "$1,480",
+        "extracted_lowest": 1480,
+        "before_taxes_fees": "$1,310",
+        "extracted_before_taxes_fees": 1310
+      },
+      "nearby_places": [
+        {
+          "name": "Venetian Pool",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "6 min"
+            }
+          ]
+        },
+        {
+          "name": "Ponce De Leon Blvd & Santander Av",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "4 min"
+            }
+          ]
+        },
+        {
+          "name": "Miami International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "25 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "50 min"
+            }
+          ]
+        },
+        {
+          "name": "Bulla Gastrobar",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "7 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "4-star hotel",
+      "extracted_hotel_class": 4,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4no4SFzsMMrEj_qbHCINpBitwM9D45wDoDZICjlwHKP97yQTZuFfTCckezh8C5xRYP99CQLp4mf_89yHKtS_3JG44rN6_y3L3IMXO2ft5Ngwj1iAiVMoQI184XKK1VbR6SWYhZlj=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICZlPq0xgE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPUKWJg9HzZtzJ488nuAD3TGkjCFg-hU61AQCkW=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPUKWJg9HzZtzJ488nuAD3TGkjCFg-hU61AQCkW=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNIOj_noabLdJUcNLPHXUCAXGVJXAbImv47bjcP=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNIOj_noabLdJUcNLPHXUCAXGVJXAbImv47bjcP=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMnDMtNmarrvSpNNpaFWLqUp4H9R8YUwz5XhXyy=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMnDMtNmarrvSpNNpaFWLqUp4H9R8YUwz5XhXyy=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNb53FP7-iLpvJIG8tb3xomO4IyMzBB3eIGwqhX=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNb53FP7-iLpvJIG8tb3xomO4IyMzBB3eIGwqhX=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMHNT7KrC3VwY8gHNchvzztw2GsBtevxAp8D4EM=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMHNT7KrC3VwY8gHNchvzztw2GsBtevxAp8D4EM=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNgQ0-LfRyeztvSVMqJlMS6JI6li1RVGkjXM88s=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNgQ0-LfRyeztvSVMqJlMS6JI6li1RVGkjXM88s=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOfxpHdYwYNxCL2E-FM9AcR6GvVuRJff9f3hUOn=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOfxpHdYwYNxCL2E-FM9AcR6GvVuRJff9f3hUOn=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNzn4Irsvw9wRaOqlpfenGU1bWhlHBd90C28hJ2=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNzn4Irsvw9wRaOqlpfenGU1bWhlHBd90C28hJ2=s10000"
+        }
+      ],
+      "overall_rating": 4.6,
+      "reviews": 576,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 484
+        },
+        {
+          "stars": 4,
+          "count": 29
+        },
+        {
+          "stars": 3,
+          "count": 17
+        },
+        {
+          "stars": 2,
+          "count": 8
+        },
+        {
+          "stars": 1,
+          "count": 38
+        }
+      ],
+      "location_rating": 3.9,
+      "reviews_breakdown": [
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 165,
+          "positive": 140,
+          "negative": 22,
+          "neutral": 3
+        },
+        {
+          "name": "Bar",
+          "description": "Bar or lounge",
+          "total_mentioned": 61,
+          "positive": 51,
+          "negative": 7,
+          "neutral": 3
+        },
+        {
+          "name": "Fitness",
+          "description": "Fitness",
+          "total_mentioned": 51,
+          "positive": 43,
+          "negative": 5,
+          "neutral": 3
+        },
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 61,
+          "positive": 55,
+          "negative": 5,
+          "neutral": 1
+        },
+        {
+          "name": "Wellness",
+          "description": "Wellness",
+          "total_mentioned": 6,
+          "positive": 4,
+          "negative": 2,
+          "neutral": 0
+        },
+        {
+          "name": "Couples",
+          "description": "Couple friendly",
+          "total_mentioned": 12,
+          "positive": 10,
+          "negative": 1,
+          "neutral": 1
+        }
+      ],
+      "amenities": [
+        "Breakfast ($)",
+        "Free Wi-Fi",
+        "Free parking",
+        "Outdoor pool",
+        "Hot tub",
+        "Air conditioning",
+        "Pet-friendly",
+        "Fitness center",
+        "Spa",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Full-service laundry",
+        "Accessible",
+        "Business center",
+        "Kid-friendly",
+        "Smoke-free property"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "InterContinental Miami, an IHG Hotel",
+      "description": "Refined rooms & suites in a plush high-rise property with a rooftop pool, a spa & fine dining.",
+      "link": "https://www.icmiamihotel.com/?utm_source=google&utm_medium=organic&utm_campaign=business_listing&trackingSource=GoogleBusinessListing?",
+      "property_token": "ChYIvK7IhoSb_9hbGgovbS8wMjd0ZGRxEAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-05-02&check_out_date=2026-05-05&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&hotel_class=3%2C4%2C5&property_token=ChYIvK7IhoSb_9hbGgovbS8wMjd0ZGRxEAE&q=Miami&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 25.7721907,
+        "longitude": -80.18590309999999
+      },
+      "check_in_time": "3:00\u202fPM",
+      "check_out_time": "12:00\u202fPM",
+      "rate_per_night": {
+        "lowest": "$364",
+        "extracted_lowest": 364,
+        "before_taxes_fees": "$327",
+        "extracted_before_taxes_fees": 327
+      },
+      "total_rate": {
+        "lowest": "$1,093",
+        "extracted_lowest": 1093,
+        "before_taxes_fees": "$981",
+        "extracted_before_taxes_fees": 981
+      },
+      "deal": "30% less than usual",
+      "deal_description": "Great Deal",
+      "nearby_places": [
+        {
+          "name": "Bayfront Park",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        },
+        {
+          "name": "Biscayne Blvd & E Flagler St",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "4 min"
+            }
+          ]
+        },
+        {
+          "name": "Miami International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "25 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "46 min"
+            }
+          ]
+        },
+        {
+          "name": "Fiore Caffe Miami",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "7 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "4-star hotel",
+      "extracted_hotel_class": 4,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMz_HTUGuwSie1G-VYkyRRbpx8Fr2cq17fT5erp=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMz_HTUGuwSie1G-VYkyRRbpx8Fr2cq17fT5erp=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOrRmqWjDJUoM6xfl-0uhtevXLZgr63Qi9toSnl=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOrRmqWjDJUoM6xfl-0uhtevXLZgr63Qi9toSnl=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMNjH1h579sm3KDsGCuGShGtaqTN29dYs7LRdek=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMNjH1h579sm3KDsGCuGShGtaqTN29dYs7LRdek=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP2XmaTCvhWH5ORyoQvdnMhxh4Kmlk_ayhc_Nrn=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipP2XmaTCvhWH5ORyoQvdnMhxh4Kmlk_ayhc_Nrn=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPTrMURgl_y6Ny7UW43LTjmy9PCpYdEJzsV98ik=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPTrMURgl_y6Ny7UW43LTjmy9PCpYdEJzsV98ik=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPoKXxhtv0a-Y-UdG5Q3-C7gO00aT043OexlxtB=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPoKXxhtv0a-Y-UdG5Q3-C7gO00aT043OexlxtB=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOi1iSE7vxMptA9txvjHM8B0Ysy6hKMDWJKI-Rg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOi1iSE7vxMptA9txvjHM8B0Ysy6hKMDWJKI-Rg=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOxBtzqQ9zPlcdSMcp8cxZzyFdHqV0xDMumAJQy=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOxBtzqQ9zPlcdSMcp8cxZzyFdHqV0xDMumAJQy=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPf8YxPrTCzGBUbPWJBdKETkxpI2o-CKjDPjPD-=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPf8YxPrTCzGBUbPWJBdKETkxpI2o-CKjDPjPD-=s10000"
+        }
+      ],
+      "overall_rating": 4.5,
+      "reviews": 7193,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 5175
+        },
+        {
+          "stars": 4,
+          "count": 1310
+        },
+        {
+          "stars": 3,
+          "count": 345
+        },
+        {
+          "stars": 2,
+          "count": 147
+        },
+        {
+          "stars": 1,
+          "count": 216
+        }
+      ],
+      "location_rating": 4.6,
+      "reviews_breakdown": [
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 883,
+          "positive": 785,
+          "negative": 45,
+          "neutral": 53
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 1333,
+          "positive": 1109,
+          "negative": 172,
+          "neutral": 52
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 1472,
+          "positive": 1256,
+          "negative": 144,
+          "neutral": 72
+        },
+        {
+          "name": "Fitness",
+          "description": "Fitness",
+          "total_mentioned": 296,
+          "positive": 201,
+          "negative": 68,
+          "neutral": 27
+        },
+        {
+          "name": "Room",
+          "description": "Room amenities",
+          "total_mentioned": 484,
+          "positive": 366,
+          "negative": 80,
+          "neutral": 38
+        },
+        {
+          "name": "Bar",
+          "description": "Bar or lounge",
+          "total_mentioned": 290,
+          "positive": 225,
+          "negative": 39,
+          "neutral": 26
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Free Wi-Fi",
+        "Parking ($)",
+        "Outdoor pool",
+        "Air conditioning",
+        "Pet-friendly",
+        "Fitness center",
+        "Spa",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Full-service laundry",
+        "Accessible",
+        "Business center",
+        "Kid-friendly",
+        "Smoke-free property"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "EAST Miami",
+      "description": "Sleek hotel offering a restaurant & a gym, plus a rooftop terrace with a cocktail lounge & 4 pools.",
+      "link": "https://www.easthotels.com/en/miami/",
+      "property_token": "ChoIjLLd0s7UgeOxARoNL2cvMTFjbWMyZ3NjNBAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-05-02&check_out_date=2026-05-05&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&hotel_class=3%2C4%2C5&property_token=ChoIjLLd0s7UgeOxARoNL2cvMTFjbWMyZ3NjNBAB&q=Miami&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 25.766673599999997,
+        "longitude": -80.1927482
+      },
+      "check_in_time": "3:00\u202fPM",
+      "check_out_time": "11:00\u202fAM",
+      "rate_per_night": {
+        "lowest": "$671",
+        "extracted_lowest": 671,
+        "before_taxes_fees": "$592",
+        "extracted_before_taxes_fees": 592
+      },
+      "total_rate": {
+        "lowest": "$2,013",
+        "extracted_lowest": 2013,
+        "before_taxes_fees": "$1,775",
+        "extracted_before_taxes_fees": 1775
+      },
+      "nearby_places": [
+        {
+          "name": "Vizcaya Museum & Gardens",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "9 min"
+            }
+          ]
+        },
+        {
+          "name": "Brickell City Centre",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "2 min"
+            }
+          ]
+        },
+        {
+          "name": "Miami International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "25 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "44 min"
+            }
+          ]
+        },
+        {
+          "name": "Sandwich Miami Brickell",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "2 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "5-star hotel",
+      "extracted_hotel_class": 5,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqFfxef8KnzH1QYvKXckGbGb6nUhfi68F9AoP6S8rZ-o0S8LJzjajV1P8G1mzI3lqLf6Z5qFr7XJsj3uRFh-BJsyX5cEBkdpg3a_hMxYU6R1023AnjKw42UiWdP1mchHlX_yIy9=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDMnbSvQA=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMLpIHJrp80WLmE_rNiAqH8djUYIfnShbhuGeXt=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMLpIHJrp80WLmE_rNiAqH8djUYIfnShbhuGeXt=s10000"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/Po_o8Re3rxZNs6OqW-wAUQxrN3yrSQoqGcnezYNSOUDonsE94luiZBsQO5DlfF6QV3ZQtuOfMbYCr8MhynrgPMDgujCDyLLRF4XSTY9UMNTibJmYuuWomaJk1hnGZ4eg2KVo9hFhwgRotHbScae6VVzx-uaJqoc=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://www.iceportal.com/data/2813-122958-f76423539_XXLejpg/United-States-of-America/Florida/Miami/EAST-Miami/Photo/EAST-Miami-Miami-Undefined-East-Miami-Pool-Side.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPyrMayO1ybfxxw0neLIIIvQTWJow8Z7-4PbgwI=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPyrMayO1ybfxxw0neLIIIvQTWJow8Z7-4PbgwI=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMLgJgy-xicQeRaZuRTMaRoiZTbHUdeT6ElP7TJ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMLgJgy-xicQeRaZuRTMaRoiZTbHUdeT6ElP7TJ=s10000"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/unBKYOj_6m6tWVWkMrLvY_w7fmmAVgv8choTkwE2w-RinL5cEjGq_OMg8NjOpdvbXcMwYxWbK52kzggrehOFfxEy0f9GNw6MX3l1_s4969z-z2GEjhapbbxw_TbE7Kq-OnPqhDdvDb1KzIBMMN-WUWpf_K-J0w=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://www.iceportal.com/data/2813-122958-f80392250_XXLejpg/United-States-of-America/Florida/Miami/EAST-Miami/Photo/EAST-Miami-Miami-Undefined-East-Miami-BR-Residence-Kitchen.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOGXOgAWtX4UF2AMx1PgssguWUueScyn5BZONl0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOGXOgAWtX4UF2AMx1PgssguWUueScyn5BZONl0=s10000"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/6Ag_u0iFON7Yj6LnMERYjOhYB320H0LVdgebTq6TTI6febiGb5ziuTUHJEt1NfHIkilWh9InhFWE_oyqpP6ruKyksBqffeIBk39wMc97X0rq6LJG_GaneEY6QzbPepIMnupEr8LGdr0G2McRvtS55IINDt4Vgg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://www.iceportal.com/data/2813-122958-f76423671_XXLejpg/United-States-of-America/Florida/Miami/EAST-Miami/Photo/EAST-Miami-Miami-Undefined-East-Miami-Quinto-Patio.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMg_kws95SgXzq1fqFGoQpdiQOYtlV3AdQyO1Wz=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMg_kws95SgXzq1fqFGoQpdiQOYtlV3AdQyO1Wz=s10000"
+        }
+      ],
+      "overall_rating": 4.5,
+      "reviews": 3680,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 2681
+        },
+        {
+          "stars": 4,
+          "count": 533
+        },
+        {
+          "stars": 3,
+          "count": 149
+        },
+        {
+          "stars": 2,
+          "count": 85
+        },
+        {
+          "stars": 1,
+          "count": 232
+        }
+      ],
+      "location_rating": 4.7,
+      "reviews_breakdown": [
+        {
+          "name": "Bar",
+          "description": "Bar or lounge",
+          "total_mentioned": 312,
+          "positive": 226,
+          "negative": 58,
+          "neutral": 28
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 686,
+          "positive": 452,
+          "negative": 206,
+          "neutral": 28
+        },
+        {
+          "name": "Fitness",
+          "description": "Fitness",
+          "total_mentioned": 211,
+          "positive": 142,
+          "negative": 56,
+          "neutral": 13
+        },
+        {
+          "name": "Room",
+          "description": "Room amenities",
+          "total_mentioned": 312,
+          "positive": 238,
+          "negative": 53,
+          "neutral": 21
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 689,
+          "positive": 526,
+          "negative": 114,
+          "neutral": 49
+        },
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 244,
+          "positive": 170,
+          "negative": 52,
+          "neutral": 22
+        }
+      ],
+      "amenities": [
+        "Breakfast ($)",
+        "Free Wi-Fi",
+        "Parking ($)",
+        "Outdoor pool",
+        "Hot tub",
+        "Air conditioning",
+        "Pet-friendly",
+        "Fitness center",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Kitchen in some rooms",
+        "Full-service laundry",
+        "Accessible",
+        "Smoke-free property"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "The Elser Hotel - Miami",
+      "link": "https://www.theelserhotel.com/",
+      "property_token": "ChkI9avfrZ2JnrI-Gg0vZy8xMXM4ZHFiZDlfEAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-05-02&check_out_date=2026-05-05&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&hotel_class=3%2C4%2C5&property_token=ChkI9avfrZ2JnrI-Gg0vZy8xMXM4ZHFiZDlfEAE&q=Miami&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 25.7788802,
+        "longitude": -80.1890556
+      },
+      "check_in_time": "4:00\u202fPM",
+      "check_out_time": "11:00\u202fAM",
+      "rate_per_night": {
+        "lowest": "$474",
+        "extracted_lowest": 474,
+        "before_taxes_fees": "$427",
+        "extracted_before_taxes_fees": 427
+      },
+      "total_rate": {
+        "lowest": "$1,421",
+        "extracted_lowest": 1421,
+        "before_taxes_fees": "$1,280",
+        "extracted_before_taxes_fees": 1280
+      },
+      "nearby_places": [
+        {
+          "name": "Bayside Marketplace",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "4 min"
+            }
+          ]
+        },
+        {
+          "name": "Freedom Tower",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "5 min"
+            }
+          ]
+        },
+        {
+          "name": "Miami International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "24 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "43 min"
+            }
+          ]
+        },
+        {
+          "name": "Casa Italia Cucina",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "7 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "4-star hotel",
+      "extracted_hotel_class": 4,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipN7aed7TATF5yA2jxi9iONnj-2jrqkhCYzyLKn3=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipN7aed7TATF5yA2jxi9iONnj-2jrqkhCYzyLKn3=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMS6IByfFTkWJl3ukH6uHK62O6G_6wyydAB5Hyr=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMS6IByfFTkWJl3ukH6uHK62O6G_6wyydAB5Hyr=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPTl0vduGSlIfNrVU8kLsnoqIp_vrOeAVhCgW5t=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPTl0vduGSlIfNrVU8kLsnoqIp_vrOeAVhCgW5t=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipO-88ZKygUo53h17s5fZiSDNVONme4uXHnUW12X=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipO-88ZKygUo53h17s5fZiSDNVONme4uXHnUW12X=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP8vRIKCnh4ok9xSTmbF-dp81WsPX4LvuOYtYPt=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipP8vRIKCnh4ok9xSTmbF-dp81WsPX4LvuOYtYPt=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNtXwomrvlOLvU5xCIZZCLnuJDY7JqlA0SrgJ_d=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNtXwomrvlOLvU5xCIZZCLnuJDY7JqlA0SrgJ_d=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMKgC5LRHzJfSGOBrQZjETxSQRvj67gKzuc8nvO=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMKgC5LRHzJfSGOBrQZjETxSQRvj67gKzuc8nvO=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMkKMTs4brJ2-MirJ7ViZNobxHiUEMSvWZRId5F=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMkKMTs4brJ2-MirJ7ViZNobxHiUEMSvWZRId5F=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPiPOLtjzK7AGyBak-HYA6ynUStj4P1neuuxydb=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPiPOLtjzK7AGyBak-HYA6ynUStj4P1neuuxydb=s10000"
+        }
+      ],
+      "overall_rating": 4.5,
+      "reviews": 2266,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 1827
+        },
+        {
+          "stars": 4,
+          "count": 117
+        },
+        {
+          "stars": 3,
+          "count": 76
+        },
+        {
+          "stars": 2,
+          "count": 58
+        },
+        {
+          "stars": 1,
+          "count": 188
+        }
+      ],
+      "location_rating": 4.6,
+      "reviews_breakdown": [
+        {
+          "name": "Fitness",
+          "description": "Fitness",
+          "total_mentioned": 565,
+          "positive": 499,
+          "negative": 39,
+          "neutral": 27
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 1071,
+          "positive": 864,
+          "negative": 182,
+          "neutral": 25
+        },
+        {
+          "name": "Bar",
+          "description": "Bar or lounge",
+          "total_mentioned": 339,
+          "positive": 295,
+          "negative": 28,
+          "neutral": 16
+        },
+        {
+          "name": "Room",
+          "description": "Room amenities",
+          "total_mentioned": 381,
+          "positive": 285,
+          "negative": 71,
+          "neutral": 25
+        },
+        {
+          "name": "Pool",
+          "description": "Pool",
+          "total_mentioned": 228,
+          "positive": 214,
+          "negative": 8,
+          "neutral": 6
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 389,
+          "positive": 335,
+          "negative": 37,
+          "neutral": 17
+        }
+      ],
+      "amenities": [
+        "Breakfast ($)",
+        "Free Wi-Fi",
+        "Parking ($)",
+        "Outdoor pool",
+        "Hot tub",
+        "Air conditioning",
+        "Pet-friendly",
+        "Fitness center",
+        "Bar",
+        "Restaurant",
+        "Kitchen",
+        "Full-service laundry",
+        "Accessible",
+        "Kid-friendly",
+        "Smoke-free property"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Hyatt Regency Coral Gables",
+      "description": "Posh Mediterranean-style lodging offering a heated pool, an upscale eatery & event space.",
+      "link": "https://www.hyatt.com/hyatt-regency/en-US/coral-hyatt-regency-coral-gables?src=corp_lclb_google_seo_coral&utm_source=google&utm_medium=organic&utm_campaign=lmr",
+      "property_token": "ChcI79vHvsGVut4rGgsvZy8xdGRfY2g2YhAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-05-02&check_out_date=2026-05-05&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&hotel_class=3%2C4%2C5&property_token=ChcI79vHvsGVut4rGgsvZy8xdGRfY2g2YhAB&q=Miami&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 25.7518784,
+        "longitude": -80.2558201
+      },
+      "check_in_time": "3:00\u202fPM",
+      "check_out_time": "12:00\u202fPM",
+      "rate_per_night": {
+        "lowest": "$361",
+        "extracted_lowest": 361,
+        "before_taxes_fees": "$322",
+        "extracted_before_taxes_fees": 322
+      },
+      "total_rate": {
+        "lowest": "$1,082",
+        "extracted_lowest": 1082,
+        "before_taxes_fees": "$967",
+        "extracted_before_taxes_fees": 967
+      },
+      "nearby_places": [
+        {
+          "name": "Venetian Pool",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "7 min"
+            }
+          ]
+        },
+        {
+          "name": "SW 37 Av & Giralda Av",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        },
+        {
+          "name": "Miami International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "24 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "33 min"
+            }
+          ]
+        },
+        {
+          "name": "Eating House Miami",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "4 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "4-star hotel",
+      "extracted_hotel_class": 4,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nr6M2cQnrFS6ajuox7MSwS6rk8Ff2NRbzXhrUgBBq_BQY_tNMwxbOstrut9nfVC-U6DlC4tb3y860aTtlrrPkJi_MeKPkGRi3KRS0EqyCQQClXoqMlAAumWPIlujUCbTjIAYW2m=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDqxNeNcQ=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipO1kVGdS_wn4pr7JErlueFqUsZxFuQSuE1SWi8Z=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipO1kVGdS_wn4pr7JErlueFqUsZxFuQSuE1SWi8Z=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq3H72-XX1LrIvhhHBe7vFul_AsH8Swkv6iRkvhB0ta2TVZ8vfZ8Kw3yVadgJeTtJ629TIl1vgl-6zWNJdIkTVwrh_EC08-Ha4nLCLM87v6E669D3FZqva6hEXPThRIzbGCNGo=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDqxNeFDQ=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNftxEBKi3pQZAkDaw-Hm7ejz9Pm5XKW2ZrtiyT=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNftxEBKi3pQZAkDaw-Hm7ejz9Pm5XKW2ZrtiyT=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipObjrOwSIMCiIfQVkOvtzzbxSHXgv4T0bXlUXGw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipObjrOwSIMCiIfQVkOvtzzbxSHXgv4T0bXlUXGw=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipO7T_P7kfvXhFn9OJtCXWy6xV-v8IFouK3tEojr=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipO7T_P7kfvXhFn9OJtCXWy6xV-v8IFouK3tEojr=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMDNbH47rzPhRZ0_j8m63HkdYvRlF18hCkZohQ_=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMDNbH47rzPhRZ0_j8m63HkdYvRlF18hCkZohQ_=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNTg2tDAJEygkS_pnr2rWPtEM7ETXxHrHsL4KMK=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNTg2tDAJEygkS_pnr2rWPtEM7ETXxHrHsL4KMK=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP3sDec-kmxvWCkqdo0Xo_l8D3zTHxgPxeYHgcI=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipP3sDec-kmxvWCkqdo0Xo_l8D3zTHxgPxeYHgcI=s10000"
+        }
+      ],
+      "overall_rating": 4.5,
+      "reviews": 1798,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 1221
+        },
+        {
+          "stars": 4,
+          "count": 365
+        },
+        {
+          "stars": 3,
+          "count": 107
+        },
+        {
+          "stars": 2,
+          "count": 49
+        },
+        {
+          "stars": 1,
+          "count": 56
+        }
+      ],
+      "location_rating": 4.4,
+      "reviews_breakdown": [
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 386,
+          "positive": 317,
+          "negative": 47,
+          "neutral": 22
+        },
+        {
+          "name": "Fitness",
+          "description": "Fitness",
+          "total_mentioned": 110,
+          "positive": 92,
+          "negative": 12,
+          "neutral": 6
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 227,
+          "positive": 205,
+          "negative": 9,
+          "neutral": 13
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 479,
+          "positive": 394,
+          "negative": 57,
+          "neutral": 28
+        },
+        {
+          "name": "Bar",
+          "description": "Bar or lounge",
+          "total_mentioned": 73,
+          "positive": 50,
+          "negative": 13,
+          "neutral": 10
+        },
+        {
+          "name": "Pool",
+          "description": "Pool",
+          "total_mentioned": 63,
+          "positive": 56,
+          "negative": 5,
+          "neutral": 2
+        }
+      ],
+      "amenities": [
+        "Breakfast ($)",
+        "Free Wi-Fi",
+        "Parking ($)",
+        "Outdoor pool",
+        "Hot tub",
+        "Air conditioning",
+        "Pet-friendly",
+        "Fitness center",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Full-service laundry",
+        "Accessible",
+        "Business center",
+        "Smoke-free property"
+      ],
+      "eco_certified": true
+    },
+    {
+      "type": "hotel",
+      "name": "Hotel Colonnade Coral Gables, Autograph Collection",
+      "description": "Contemporary rooms & suites, some with balconies, plus a rooftop pool, a grill restaurant & bar.",
+      "link": "https://www.marriott.com/en-us/hotels/miaao-hotel-colonnade-coral-gables-autograph-collection/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0",
+      "property_token": "ChcIj8Ser-aN_9JnGgsvZy8xdGdncGZrYxAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-05-02&check_out_date=2026-05-05&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&hotel_class=3%2C4%2C5&property_token=ChcIj8Ser-aN_9JnGgsvZy8xdGdncGZrYxAB&q=Miami&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 25.750383799999998,
+        "longitude": -80.2582532
+      },
+      "check_in_time": "4:00\u202fPM",
+      "check_out_time": "11:00\u202fAM",
+      "rate_per_night": {
+        "lowest": "$576",
+        "extracted_lowest": 576,
+        "before_taxes_fees": "$510",
+        "extracted_before_taxes_fees": 510
+      },
+      "total_rate": {
+        "lowest": "$1,729",
+        "extracted_lowest": 1729,
+        "before_taxes_fees": "$1,530",
+        "extracted_before_taxes_fees": 1530
+      },
+      "nearby_places": [
+        {
+          "name": "Venetian Pool",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "5 min"
+            }
+          ]
+        },
+        {
+          "name": "Ponce De Leon Blvd & Aragon Av",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        },
+        {
+          "name": "Miami International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "23 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "30 min"
+            }
+          ]
+        },
+        {
+          "name": "Basilico Ristorante Coral Gables",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "2 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "4-star hotel",
+      "extracted_hotel_class": 4,
+      "images": [
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/stsP_V7BK2FcAzleSbJBU2AKPry22huJHhlPaZkU2MqQgtSV_2IqaBAGsLp2y_iq1zwyqkq3cfHBrBckPUWQJaHGz5BCoOIt0jImIWewnV0Ln0Spu3XfG0XH4FpzLt_-4kJQ_IPnpQ3Q40VEqMwSBOpKgNNB6g=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/1000000/10000/1100/1052/cb205672_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/l9yOTgU1gMnkPucugDo9etMvxtP-Nn8Bma278HOXTAPHwx7lyFOhtr-cF9zMr3KP3JX1DGrHZkPEBExcmM9JuJ4Dx2GrPcpqOkh4GywcM0PLAjGhRGLmaCOSP3vbg48mIEIwyLbOjjNYr-v7-P-QtdxHYj1c_aw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/1000000/10000/1100/1052/171a2b25_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/X32_Oy9bYonjtlZ_GP0QdMK8-K3wbmIogSJCHJ__NrWjUW6VNA31EoA-V6rkQ1Ar7mTYtWM_MDUG6lkXHToe7YQboTJ7vIzgOsfh9ERjjJtS_6K7bROALOMIX-SP5ehcpzCDd6JOeyIMFgPkohFX-tI_SkMWvWA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/1000000/10000/1100/1052/98f61097_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOcuVUp09EVpB1Pnfs851Bl9K6fkh_xoxylKHWX=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOcuVUp09EVpB1Pnfs851Bl9K6fkh_xoxylKHWX=s10000"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/REFc_fVJV8VNTgkoM19Xlf1C_IlJ1bDCDOdt5ld8-Hy6NTqjBptUeENc80MbdBjAjP4KCNWrZ5ZJGOd7-xLINRehhSGRxkmaenIJwxrrqE2YLUbrIOrZwwaf1WPz2CwNFm9lMoGw7Vm7rJthZ83ZajgbCxiWI6s=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/1000000/10000/1100/1052/47c99815_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/1YPpF2HFzDB8i14KFSmfuGJGOAE7jH0TLCaX1IJ_y_KnMVIVztnfva67oIpOpcnT_tgN66xjIiwpzBL48bcO63rxbUnlbEc3Q29FUjhM557zLMazGybGkIVeQKGrjSqi2sdv2j4tvaQuAn_KTSQAmiWfWOqM3s4=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/1000000/10000/1100/1052/e8df388d_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOeCxlqt1HyKDuKfx6V0ROXzw0AGK_zoNKBKhOn=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOeCxlqt1HyKDuKfx6V0ROXzw0AGK_zoNKBKhOn=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPJY4ZKQx4_ce3WU-wjA4t5_gae7akDUaPBWx0L=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPJY4ZKQx4_ce3WU-wjA4t5_gae7akDUaPBWx0L=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipN4zkD6vEyXUJPMYYj33UzVCzifPras4i7CvQ8m=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipN4zkD6vEyXUJPMYYj33UzVCzifPras4i7CvQ8m=s10000"
+        }
+      ],
+      "overall_rating": 4.5,
+      "reviews": 1346,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 921
+        },
+        {
+          "stars": 4,
+          "count": 265
+        },
+        {
+          "stars": 3,
+          "count": 73
+        },
+        {
+          "stars": 2,
+          "count": 22
+        },
+        {
+          "stars": 1,
+          "count": 65
+        }
+      ],
+      "location_rating": 4.5,
+      "reviews_breakdown": [
+        {
+          "name": "Couples",
+          "description": "Couple friendly",
+          "total_mentioned": 56,
+          "positive": 42,
+          "negative": 6,
+          "neutral": 8
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 307,
+          "positive": 249,
+          "negative": 50,
+          "neutral": 8
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 394,
+          "positive": 323,
+          "negative": 49,
+          "neutral": 22
+        },
+        {
+          "name": "Fitness",
+          "description": "Fitness",
+          "total_mentioned": 56,
+          "positive": 38,
+          "negative": 12,
+          "neutral": 6
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 162,
+          "positive": 144,
+          "negative": 10,
+          "neutral": 8
+        },
+        {
+          "name": "Wi-Fi",
+          "description": "Wi-Fi",
+          "total_mentioned": 21,
+          "positive": 3,
+          "negative": 13,
+          "neutral": 5
+        }
+      ],
+      "amenities": [
+        "Breakfast ($)",
+        "Free Wi-Fi",
+        "Parking ($)",
+        "Outdoor pool",
+        "Hot tub",
+        "Air conditioning",
+        "Pet-friendly",
+        "Fitness center",
+        "Restaurant",
+        "Room service",
+        "Full-service laundry",
+        "Business center",
+        "Kid-friendly",
+        "Smoke-free property"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "The Ritz-Carlton Coconut Grove, Miami",
+      "description": "Upscale hotel offering refined quarters & bay views, plus seafood dining, a spa & an outdoor pool.",
+      "link": "https://www.ritzcarlton.com/en/hotels/miarz-the-ritz-carlton-coconut-grove-miami/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0",
+      "property_token": "ChgI__Dn1dm03qqlARoLL2cvMXRkYjBoZzMQAQ",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-05-02&check_out_date=2026-05-05&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&hotel_class=3%2C4%2C5&property_token=ChgI__Dn1dm03qqlARoLL2cvMXRkYjBoZzMQAQ&q=Miami&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 25.7304471,
+        "longitude": -80.2380563
+      },
+      "check_in_time": "4:00\u202fPM",
+      "check_out_time": "11:00\u202fAM",
+      "rate_per_night": {
+        "lowest": "$1,118",
+        "extracted_lowest": 1118,
+        "before_taxes_fees": "$990",
+        "extracted_before_taxes_fees": 990
+      },
+      "total_rate": {
+        "lowest": "$3,355",
+        "extracted_lowest": 3355,
+        "before_taxes_fees": "$2,969",
+        "extracted_before_taxes_fees": 2969
+      },
+      "nearby_places": [
+        {
+          "name": "Vizcaya Museum & Gardens",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "7 min"
+            }
+          ]
+        },
+        {
+          "name": "Tigertail Av & SW 27 Av",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "4 min"
+            }
+          ]
+        },
+        {
+          "name": "Miami International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "28 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "1 hr"
+            }
+          ]
+        },
+        {
+          "name": "Koko",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "5 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "5-star hotel",
+      "extracted_hotel_class": 5,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipObf91Ett413vWK1YOEZxyZdfrL3UuLtLcGxqB3=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipObf91Ett413vWK1YOEZxyZdfrL3UuLtLcGxqB3=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipM1WfE5pArqafdPfIBLEH_APzvDg6jFE5xMmy6m=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipM1WfE5pArqafdPfIBLEH_APzvDg6jFE5xMmy6m=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMVAVKuuW6H71wfC6LpHtUuQdjwwnBdGssdWi4q=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMVAVKuuW6H71wfC6LpHtUuQdjwwnBdGssdWi4q=s10000"
+        },
+        {
+          "thumbnail": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=LXGJz6bcsnoAAAAGOuCo6A&cb_client=search.estubs.gps&w=287&h=192&yaw=220&pitch=-20&thumbfov=100&scale=2",
+          "original_image": "https://lh5.googleusercontent.com/p/LXGJz6bcsnoAAAAGOuCo6A=s10000"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/Tx7XHQYWYh464cJyx34aYxjx5dK98ezONzPnAPbe73cLstWMSbQqXISK7Esmlnvk0ywNrF8kLJ8QD9rYBoq9dEG_osj29Ga0u4cV8hqmljNvcakG20fcti1bshVUsbLBo0q8cHH9GxjE2rdcLW31uLTMXYwhCy0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/1000000/580000/579400/579331/1e645809_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMfgqaTC97WjZXcrmbjoKL0VcQsflfDNkNgJX08=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMfgqaTC97WjZXcrmbjoKL0VcQsflfDNkNgJX08=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP4Zt3aiFviDlyTFhTzccPS219_cxj-O42he8ps=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipP4Zt3aiFviDlyTFhTzccPS219_cxj-O42he8ps=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPdyXaaiFoJ1ZbOAssyrQNzfIqGT9XHb3AZKfck=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPdyXaaiFoJ1ZbOAssyrQNzfIqGT9XHb3AZKfck=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNqHIr-zUsZIjqX60m9HQHjajj68mMsbyO_QZwd=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNqHIr-zUsZIjqX60m9HQHjajj68mMsbyO_QZwd=s10000"
+        }
+      ],
+      "overall_rating": 4.5,
+      "reviews": 1221,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 912
+        },
+        {
+          "stars": 4,
+          "count": 179
+        },
+        {
+          "stars": 3,
+          "count": 51
+        },
+        {
+          "stars": 2,
+          "count": 37
+        },
+        {
+          "stars": 1,
+          "count": 42
+        }
+      ],
+      "location_rating": 3.9,
+      "reviews_breakdown": [
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 304,
+          "positive": 255,
+          "negative": 39,
+          "neutral": 10
+        },
+        {
+          "name": "Wellness",
+          "description": "Wellness",
+          "total_mentioned": 28,
+          "positive": 22,
+          "negative": 5,
+          "neutral": 1
+        },
+        {
+          "name": "Spa",
+          "description": "Spa",
+          "total_mentioned": 27,
+          "positive": 21,
+          "negative": 5,
+          "neutral": 1
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 239,
+          "positive": 196,
+          "negative": 32,
+          "neutral": 11
+        },
+        {
+          "name": "Fitness",
+          "description": "Fitness",
+          "total_mentioned": 57,
+          "positive": 36,
+          "negative": 18,
+          "neutral": 3
+        },
+        {
+          "name": "Bar",
+          "description": "Bar or lounge",
+          "total_mentioned": 45,
+          "positive": 36,
+          "negative": 8,
+          "neutral": 1
+        }
+      ],
+      "amenities": [
+        "Breakfast ($)",
+        "Wi-Fi ($)",
+        "Parking ($)",
+        "Outdoor pool",
+        "Air conditioning",
+        "Fitness center",
+        "Spa",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Full-service laundry",
+        "Accessible",
+        "Business center",
+        "Kid-friendly",
+        "Smoke-free property"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "citizenM Miami Brickell Hotel",
+      "link": "https://www.citizenm.com/hotels/america/miami/brickell-hotel?utm_source=google&utm_medium=organic&y_source=1_NDkyNzM5MTMtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+      "property_token": "ChoItfK7kPWYoPf_ARoNL2cvMTFyY2xjMThfehAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-05-02&check_out_date=2026-05-05&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&hotel_class=3%2C4%2C5&property_token=ChoItfK7kPWYoPf_ARoNL2cvMTFyY2xjMThfehAB&q=Miami&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 25.764638800000004,
+        "longitude": -80.19289549999999
+      },
+      "check_in_time": "2:00\u202fPM",
+      "check_out_time": "11:00\u202fAM",
+      "rate_per_night": {
+        "lowest": "$273",
+        "extracted_lowest": 273,
+        "before_taxes_fees": "$242",
+        "extracted_before_taxes_fees": 242
+      },
+      "total_rate": {
+        "lowest": "$819",
+        "extracted_lowest": 819,
+        "before_taxes_fees": "$725",
+        "extracted_before_taxes_fees": 725
+      },
+      "deal": "16% less than usual",
+      "deal_description": "Deal",
+      "nearby_places": [
+        {
+          "name": "Vizcaya Museum & Gardens",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "8 min"
+            }
+          ]
+        },
+        {
+          "name": "SE 10 St & SE 1 Av",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        },
+        {
+          "name": "Miami International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "24 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "40 min"
+            }
+          ]
+        },
+        {
+          "name": "Dolores But You Can Call Me Lolita",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "4-star hotel",
+      "extracted_hotel_class": 4,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNXZKqS1I4h-d3dD_12P1tGiKoHEuubeLhzbfut=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNXZKqS1I4h-d3dD_12P1tGiKoHEuubeLhzbfut=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrldrqDAkMqfPaT0FcYtjMAU8PI5Hqa-pYrWFvoLpejuh5hA6c9ltCQmtFehK5SuaGRf42ZyLgpnZ_TH51uhbvem1iHIoq9B23t2XFiF0yp2uVxCqnANwMUgwMPTZymobukjn_8_uNKzepk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIABIhD0Q_1e3tkPLnyh3l4wWvoz=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrP7C0LfkjdsIekxrV9rKyr4H-XpWKabGe0OFaHLaGZRVxQr8WT9xoKDpfQ7PSOOtuiMxItGJp2ArLVXrewmKZQZci1JZvuzysJxvZqic5PtxcVCgGXkpLx3xBqRorNyJMRL3UR=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDRlYrkJQ=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOfaJnej3D1QyCwlVeubM-LdGHqf_qKE501OX0N=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOfaJnej3D1QyCwlVeubM-LdGHqf_qKE501OX0N=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOkPFjY5MYvmMnNeLFKysd_qen4WE1j3yZPwQ1Z=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOkPFjY5MYvmMnNeLFKysd_qen4WE1j3yZPwQ1Z=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNu7HDtoSP8_guGueXNKFL-Z4yeTFHGWo0_sS3E=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNu7HDtoSP8_guGueXNKFL-Z4yeTFHGWo0_sS3E=s10000"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/lNZfGWPgYq_f0wQ6VbuM0tMTKnrFSfMwXnRD8glHU4_5Jqgne4AhZHqfJdmI6mS9ADBUjaX2qdmpXK83MoI_911HD0EDsvNwlSB-4R5C7ine8sdw12_vForbC-y58ND9rNIY4aRF9QXc-Z4qg3GP1UQvmgbCaQM=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/70000000/69560000/69551600/69551552/b5449e20_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/9XP0TYpXhmlcKSMtBb1BrcKzgE-pwDDJi_MtNSmJWZ3WPDOUpD90b0opvi9r1pm3rSoMYN67x_BVr6txCKCVOEXT-QBuuP2lDm2ESaL6fHzqQCb630opx00yGEy2oLIaeRR88EEjtmgKl6WnVjijF5V3LuTKAoM=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/70000000/69560000/69551600/69551552/bbe85579_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOYkvxNEH0wPVoOTvJGQ7MwY9IAiWGT3qU4lfLc=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOYkvxNEH0wPVoOTvJGQ7MwY9IAiWGT3qU4lfLc=s10000"
+        }
+      ],
+      "overall_rating": 4.5,
+      "reviews": 1087,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 830
+        },
+        {
+          "stars": 4,
+          "count": 136
+        },
+        {
+          "stars": 3,
+          "count": 41
+        },
+        {
+          "stars": 2,
+          "count": 18
+        },
+        {
+          "stars": 1,
+          "count": 62
+        }
+      ],
+      "location_rating": 4.7,
+      "reviews_breakdown": [
+        {
+          "name": "Bar",
+          "description": "Bar or lounge",
+          "total_mentioned": 170,
+          "positive": 157,
+          "negative": 7,
+          "neutral": 6
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 234,
+          "positive": 209,
+          "negative": 12,
+          "neutral": 13
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 337,
+          "positive": 283,
+          "negative": 45,
+          "neutral": 9
+        },
+        {
+          "name": "Fitness",
+          "description": "Fitness",
+          "total_mentioned": 99,
+          "positive": 84,
+          "negative": 12,
+          "neutral": 3
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 309,
+          "positive": 243,
+          "negative": 42,
+          "neutral": 24
+        },
+        {
+          "name": "Sleep",
+          "description": "Sleep",
+          "total_mentioned": 92,
+          "positive": 44,
+          "negative": 30,
+          "neutral": 18
+        }
+      ],
+      "amenities": [
+        "Breakfast ($)",
+        "Free Wi-Fi",
+        "Pool",
+        "Air conditioning",
+        "Bar",
+        "Restaurant",
+        "Business center",
+        "Smoke-free property"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "The Vagabond Hotel Miami",
+      "description": "Former 1950s motel reborn as a chic, laid-back boutique hotel with dining & a mosaic-tiled pool.",
+      "link": "http://www.thevagabondhotelmiami.com/",
+      "property_token": "ChkIyMHv1oWj-fkqGg0vZy8xMWI1cGttdnpmEAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-05-02&check_out_date=2026-05-05&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&hotel_class=3%2C4%2C5&property_token=ChkIyMHv1oWj-fkqGg0vZy8xMWI1cGttdnpmEAE&q=Miami&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 25.8427677,
+        "longitude": -80.18408199999999
+      },
+      "check_in_time": "3:00\u202fPM",
+      "check_out_time": "11:00\u202fAM",
+      "rate_per_night": {
+        "lowest": "$232",
+        "extracted_lowest": 232,
+        "before_taxes_fees": "$205",
+        "extracted_before_taxes_fees": 205
+      },
+      "total_rate": {
+        "lowest": "$697",
+        "extracted_lowest": 697,
+        "before_taxes_fees": "$616",
+        "extracted_before_taxes_fees": 616
+      },
+      "nearby_places": [
+        {
+          "name": "Institute of Contemporary Art, Miami",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "9 min"
+            }
+          ]
+        },
+        {
+          "name": "Biscayne Blvd & NE 72 Ter",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "2 min"
+            }
+          ]
+        },
+        {
+          "name": "Miami International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "26 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "1 hr 12 min"
+            }
+          ]
+        },
+        {
+          "name": "Moshi Moshi MiMo",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "2 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "3-star hotel",
+      "extracted_hotel_class": 3,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipM6e6C-WWA2JmoTsGggfZjyZvS9GXN1bd9gifzn=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipM6e6C-WWA2JmoTsGggfZjyZvS9GXN1bd9gifzn=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOykkIuy-oPevFGG9KO4A6yIb35uXvYWkEv4VBR=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOykkIuy-oPevFGG9KO4A6yIb35uXvYWkEv4VBR=s10000"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/hI8_YDb465kYPmO008QycJAeExkYmLEmQ2gXPQt4zBDrTil30mmjEGrZmkFc6U1Cgc43N0uMn4htdGAxW933kU43eh0TAJ35yTfH7eROP33YSJA1xcWBEr_2FlCzhIWgVEatDq_SOfAniYI_QM-NlKfoaBxxbx4=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://i.giatamedia.com/m.php?m=AQABAAAAla4KAD9CWQQFAOkFwm1_wYwkHiBeNMfdeFA"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrIjdpN-p42dsG0XQ9Pym_l70a2Y9Cpzim84dboQzwEUbKp9eA0NTVlWoW__qjr1Fh3wuIrgqGW3S8g7O4HFBnjnOnmGLziK3WWbQ85ITt2JlqsQ2-UlrNH-7V2f7TzfrzXBy29=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgID29MHtNQ=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNRXjpYNHdZmyhKm_VgcND3iGgKsuasKRLRMJdg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNRXjpYNHdZmyhKm_VgcND3iGgKsuasKRLRMJdg=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOBmFsBOT3g0z425QVw_Pk5kCOB5EX9-m9rxnqw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOBmFsBOT3g0z425QVw_Pk5kCOB5EX9-m9rxnqw=s10000"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/00NbVYJ2ApFhYDjpMCc8CcyyHnDPP6GrBGyQlP-W9a2ZZ2tg_kvUlqs_utZ2LR7KUuQEP-lEsUc0qKI7oMZTxr1sG2VSLPjwdl9ndrboGkj6W0QMA_CfP1YTuhdEir7HVI2BKkYudJ3tD4v32LBVE0b-Wg5f8Q=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://www.iceportal.com/data/2813-94756-f79172944_XXLejpg/United-States-of-America/Florida/Miami/The-Vagabond-Hotel-Miami/Photo/The-Vagabond-Hotel-Miami-Miami-Undefined-Vagabond.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNCieqHW03yOlTe5CmMUfch2ppQPJg-HiF4th8C=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNCieqHW03yOlTe5CmMUfch2ppQPJg-HiF4th8C=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPKCDDhDPu4aTruz3DBTRvUbdb6s51d8vF5YM43=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPKCDDhDPu4aTruz3DBTRvUbdb6s51d8vF5YM43=s10000"
+        }
+      ],
+      "overall_rating": 4.5,
+      "reviews": 586,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 403
+        },
+        {
+          "stars": 4,
+          "count": 129
+        },
+        {
+          "stars": 3,
+          "count": 29
+        },
+        {
+          "stars": 2,
+          "count": 10
+        },
+        {
+          "stars": 1,
+          "count": 15
+        }
+      ],
+      "location_rating": 4.2,
+      "reviews_breakdown": [
+        {
+          "name": "Fitness",
+          "description": "Fitness",
+          "total_mentioned": 148,
+          "positive": 127,
+          "negative": 9,
+          "neutral": 12
+        },
+        {
+          "name": "Bar",
+          "description": "Bar or lounge",
+          "total_mentioned": 109,
+          "positive": 94,
+          "negative": 5,
+          "neutral": 10
+        },
+        {
+          "name": "Pool",
+          "description": "Pool",
+          "total_mentioned": 85,
+          "positive": 78,
+          "negative": 4,
+          "neutral": 3
+        },
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 74,
+          "positive": 65,
+          "negative": 6,
+          "neutral": 3
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 191,
+          "positive": 169,
+          "negative": 9,
+          "neutral": 13
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 138,
+          "positive": 123,
+          "negative": 10,
+          "neutral": 5
+        }
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Free parking",
+        "Outdoor pool",
+        "Air conditioning",
+        "Fitness center",
+        "Bar",
+        "Restaurant",
+        "Accessible",
+        "Kid-friendly",
+        "Smoke-free property"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Hotel St. Augustine",
+      "link": "https://atminehospitality.com/",
+      "property_token": "ChkIutCgje3N0o5VGg0vZy8xMXgwcHZsd2w5EAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-05-02&check_out_date=2026-05-05&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&hotel_class=3%2C4%2C5&property_token=ChkIutCgje3N0o5VGg0vZy8xMXgwcHZsd2w5EAE&q=Miami&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 25.773177999999998,
+        "longitude": -80.1341068
+      },
+      "check_in_time": "3:00\u202fPM",
+      "check_out_time": "11:00\u202fAM",
+      "rate_per_night": {
+        "lowest": "$207",
+        "extracted_lowest": 207,
+        "before_taxes_fees": "$184",
+        "extracted_before_taxes_fees": 184
+      },
+      "total_rate": {
+        "lowest": "$620",
+        "extracted_lowest": 620,
+        "before_taxes_fees": "$552",
+        "extracted_before_taxes_fees": 552
+      },
+      "nearby_places": [
+        {
+          "name": "Nikki Beach Miami Beach",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "9 min"
+            }
+          ]
+        },
+        {
+          "name": "Washington Av & 4 St",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "2 min"
+            }
+          ]
+        },
+        {
+          "name": "Miami International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "27 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "1 hr 4 min"
+            }
+          ]
+        },
+        {
+          "name": "American Bistro\ud83c\udf54 American Restaurant Miami Beach",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "8 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "3-star hotel",
+      "extracted_hotel_class": 3,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOaDvOm6fBfIMowP9Z1cCe3bkGGcC7slBIwvaXa=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOaDvOm6fBfIMowP9Z1cCe3bkGGcC7slBIwvaXa=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMh40NfNgQ-coo5at6ErXMhpGts21_cFjHLUGBa=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMh40NfNgQ-coo5at6ErXMhpGts21_cFjHLUGBa=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP1E5IDjwKA8TRk9i6j95YcqK65Tb5iOXcF_Bvo=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipP1E5IDjwKA8TRk9i6j95YcqK65Tb5iOXcF_Bvo=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMdeqpiLe1JAjm_27i3jicuGJpsQCKsX6ct-95P=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMdeqpiLe1JAjm_27i3jicuGJpsQCKsX6ct-95P=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNEPTMZOFIj5QZPa6Jx6rEkWPdFGTAqsM4W13dM=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNEPTMZOFIj5QZPa6Jx6rEkWPdFGTAqsM4W13dM=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOYx4GFgmDvajHxkWTwehHs0pjhtzLrG_NrG3ut=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOYx4GFgmDvajHxkWTwehHs0pjhtzLrG_NrG3ut=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPCLJ47fo-Okel4lhU3AJz7vQqO51tXcFf1PtQn=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPCLJ47fo-Okel4lhU3AJz7vQqO51tXcFf1PtQn=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMS1SlSMu1Y-st34eYuIlRGk0m71kkGQivFdt3M=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMS1SlSMu1Y-st34eYuIlRGk0m71kkGQivFdt3M=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP4Qg7gfB_UAhy0PV1t9qBZ_mX8hxmDYMqrvEFu=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipP4Qg7gfB_UAhy0PV1t9qBZ_mX8hxmDYMqrvEFu=s10000"
+        }
+      ],
+      "overall_rating": 5,
+      "reviews": 62,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 61
+        },
+        {
+          "stars": 4,
+          "count": 1
+        },
+        {
+          "stars": 3,
+          "count": 0
+        },
+        {
+          "stars": 2,
+          "count": 0
+        },
+        {
+          "stars": 1,
+          "count": 0
+        }
+      ],
+      "location_rating": 4.2,
+      "reviews_breakdown": [
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 21,
+          "positive": 21,
+          "negative": 0,
+          "neutral": 0
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 30,
+          "positive": 30,
+          "negative": 0,
+          "neutral": 0
+        },
+        {
+          "name": "Nature",
+          "description": "Nature and outdoor activities",
+          "total_mentioned": 19,
+          "positive": 17,
+          "negative": 0,
+          "neutral": 2
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 24,
+          "positive": 23,
+          "negative": 0,
+          "neutral": 1
+        },
+        {
+          "name": "Safety",
+          "description": "Safety",
+          "total_mentioned": 5,
+          "positive": 5,
+          "negative": 0,
+          "neutral": 0
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 10,
+          "positive": 10,
+          "negative": 0,
+          "neutral": 0
+        }
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Parking ($)",
+        "Air conditioning",
+        "Pet-friendly",
+        "Kitchen in some rooms",
+        "Accessible",
+        "Kid-friendly",
+        "Smoke-free property"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Provident Luxury Suites Fisher Island",
+      "description": "Upscale resort offering luxe suites & dining, plus 18 tennis courts & a 9-hole golf course.",
+      "link": "https://www.providentresorts.com/fisher-island-miami",
+      "property_token": "ChgImNPHtru1we90GgwvZy8xcHAyeDh3ZnAQAQ",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-05-02&check_out_date=2026-05-05&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&hotel_class=3%2C4%2C5&property_token=ChgImNPHtru1we90GgwvZy8xcHAyeDh3ZnAQAQ&q=Miami&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 25.7614645,
+        "longitude": -80.1469714
+      },
+      "check_in_time": "3:00\u202fPM",
+      "nearby_places": [
+        {
+          "name": "Miami International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "53 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "1 hr 18 min"
+            }
+          ]
+        },
+        {
+          "name": "Fisher Island Club La Trattoria Restaurant",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "9 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "4-star hotel",
+      "extracted_hotel_class": 4,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP-xYcREVmYKMo8a8ObLoI8JsiHs-4WQdKiwLJ6=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipP-xYcREVmYKMo8a8ObLoI8JsiHs-4WQdKiwLJ6=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipN5gLUaQr5xT5ddFEIuQIGj4BMmXjoat9taD7wt=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipN5gLUaQr5xT5ddFEIuQIGj4BMmXjoat9taD7wt=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMw7kbJGORZPDt4p2qBy_Kzn_6n0o85ZQxzabyg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMw7kbJGORZPDt4p2qBy_Kzn_6n0o85ZQxzabyg=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOtDVp6lwSUcnVUkRNDicV9w3eOWZHRyKzanf_2=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOtDVp6lwSUcnVUkRNDicV9w3eOWZHRyKzanf_2=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNbG88bNx5Lotrfq1cZOY87r2YH9RF6AjcOTrLV=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNbG88bNx5Lotrfq1cZOY87r2YH9RF6AjcOTrLV=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPfEKOFFjV3YZy5_j2tCKR2S2PIfJmjHRLg97Yl=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPfEKOFFjV3YZy5_j2tCKR2S2PIfJmjHRLg97Yl=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNuhjRJI7b_CmjCNjEkXjlG4IuQWTtRwPDVpe4i=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNuhjRJI7b_CmjCNjEkXjlG4IuQWTtRwPDVpe4i=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNdkebxp_1KDdyvefXpnUx7HLCH20FAndNhDIiO=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNdkebxp_1KDdyvefXpnUx7HLCH20FAndNhDIiO=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npHxNT4K-dWEsYs1G20dXhgLJaLuEBQgndLpJTBf1k5Z0lurJZA3x6vokLKAcnELplNYJ93-VH1zuUlohxWHa9TXJCTEh4wuS-gpO4MZgKzLC43BdfmeRMZzK2nD5Dq3a0y9nXF=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICZruvYQg=s10000"
+        }
+      ],
+      "overall_rating": 4.7,
+      "reviews": 109,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 89
+        },
+        {
+          "stars": 4,
+          "count": 13
+        },
+        {
+          "stars": 3,
+          "count": 2
+        },
+        {
+          "stars": 2,
+          "count": 1
+        },
+        {
+          "stars": 1,
+          "count": 4
+        }
+      ],
+      "location_rating": 3.0,
+      "amenities": [
+        "Free Wi-Fi",
+        "Parking",
+        "Outdoor pool",
+        "Hot tub",
+        "Air conditioning",
+        "Pet-friendly",
+        "Fitness center",
+        "Spa",
+        "Beach access",
+        "Restaurant",
+        "Accessible",
+        "Kid-friendly",
+        "Smoke-free property"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Local House Hotel",
+      "description": "Bright rooms, some with ocean views, in a stylish hotel offering a restaurant & a rooftop pool.",
+      "link": "http://www.localhouse.com/",
+      "property_token": "ChgIrKX_-5_4vubVARoLL2cvMXRocTYyZnYQAQ",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-05-02&check_out_date=2026-05-05&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&hotel_class=3%2C4%2C5&property_token=ChgIrKX_-5_4vubVARoLL2cvMXRocTYyZnYQAQ&q=Miami&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 25.7734006,
+        "longitude": -80.1324672
+      },
+      "check_in_time": "3:00\u202fPM",
+      "check_out_time": "11:00\u202fAM",
+      "rate_per_night": {
+        "lowest": "$282",
+        "extracted_lowest": 282,
+        "before_taxes_fees": "$253",
+        "extracted_before_taxes_fees": 253
+      },
+      "total_rate": {
+        "lowest": "$847",
+        "extracted_lowest": 847,
+        "before_taxes_fees": "$758",
+        "extracted_before_taxes_fees": 758
+      },
+      "deal": "28% less than usual",
+      "deal_description": "Great Deal",
+      "nearby_places": [
+        {
+          "name": "Nikki Beach Miami Beach",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "7 min"
+            }
+          ]
+        },
+        {
+          "name": "Washington Av & 4 St",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        },
+        {
+          "name": "Miami International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "27 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "1 hr 4 min"
+            }
+          ]
+        },
+        {
+          "name": "Pizza Days",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "2 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "4-star hotel",
+      "extracted_hotel_class": 4,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/QSSblWuZJFQiwYa2qFIUzWftvSUWiVvZv0cDqFsM0FiL-lRBMfpT_xgsT7sr4gCJCMKVk7wFgU5tGkft0bAtNjvbOr-t8l0qxtMDVzkUYTmFTmXz5mEYmU_aowKvcj23EfDh8RChzB5S9FNU7cMlSeuE6u_rlg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/23/c5/38/deluxe-partial-sea-view.jpg?w=1600&h=1100&s=1"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/oUsUGihINYrdPrWMvT7JO4zzcLJT4imgrh7EXwnHz7hSm3UTjr1AlIZVGI8vPLvheK-13XkrCFFUF5_eIxLlvkLIyv4DJ3S1-e7RChzhXhmXedO1yWGn0G1PlgRmHHvsa6E1unpIBwBp9TiHIfrTc7bVOC2xSQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/3000000/2640000/2630300/2630242/76794bc2_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/WqndXdJFVHAC72DTE--3sHupEFWxyT78QnT6ChFisHFxioekY3jIh_JHw-YArxMjlrXI7sYzIuNQB2uecaAJgE5HXqZjNMqEm-FAwI0JoaKVU6M4X5RDcE8fWlEbALtFUm2WB_MxQXqRE_vngWtey4qFg3PCquI=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/3000000/2640000/2630300/2630242/96c2ec6b_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPyPHUVr2TvTpRr0gA7KMvyiguH4Zn3qpfCR0zL=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPyPHUVr2TvTpRr0gA7KMvyiguH4Zn3qpfCR0zL=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPVzz7ox3W1dFDwG_gCvo5dr0X0UuOLxaIvGo8e=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPVzz7ox3W1dFDwG_gCvo5dr0X0UuOLxaIvGo8e=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMLJNOF6dw5RRpnsWffhN-EfH8RMqxhrpEE7pHk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMLJNOF6dw5RRpnsWffhN-EfH8RMqxhrpEE7pHk=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPzivXQaKXT5yo9nXXWy8VdnF7xtUEVWumPxOeS=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPzivXQaKXT5yo9nXXWy8VdnF7xtUEVWumPxOeS=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNLgq9z02bNHpUaDC-bCSrcyCGvHGx-rFaX904J=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNLgq9z02bNHpUaDC-bCSrcyCGvHGx-rFaX904J=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOtUFLwJrRFpCj6LuBfqp_VVsdjyd4zMRFC5ysL=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOtUFLwJrRFpCj6LuBfqp_VVsdjyd4zMRFC5ysL=s10000"
+        }
+      ],
+      "overall_rating": 4.5,
+      "reviews": 312,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 224
+        },
+        {
+          "stars": 4,
+          "count": 55
+        },
+        {
+          "stars": 3,
+          "count": 19
+        },
+        {
+          "stars": 2,
+          "count": 5
+        },
+        {
+          "stars": 1,
+          "count": 9
+        }
+      ],
+      "location_rating": 4.4,
+      "reviews_breakdown": [
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 34,
+          "positive": 31,
+          "negative": 1,
+          "neutral": 2
+        },
+        {
+          "name": "Pool",
+          "description": "Pool",
+          "total_mentioned": 28,
+          "positive": 24,
+          "negative": 3,
+          "neutral": 1
+        },
+        {
+          "name": "Fitness",
+          "description": "Fitness",
+          "total_mentioned": 33,
+          "positive": 24,
+          "negative": 6,
+          "neutral": 3
+        },
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 40,
+          "positive": 32,
+          "negative": 5,
+          "neutral": 3
+        },
+        {
+          "name": "Nature",
+          "description": "Nature and outdoor activities",
+          "total_mentioned": 48,
+          "positive": 38,
+          "negative": 4,
+          "neutral": 6
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 75,
+          "positive": 61,
+          "negative": 12,
+          "neutral": 2
+        }
+      ],
+      "amenities": [
+        "Breakfast ($)",
+        "Free Wi-Fi",
+        "Parking ($)",
+        "Outdoor pool",
+        "Hot tub",
+        "Air conditioning",
+        "Beach access",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Accessible",
+        "Smoke-free property"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "JW Marriott Marquis Miami",
+      "description": "Upscale contemporary property with a renowned restaurant, a heated outdoor pool & fitness classes.",
+      "link": "https://www.marriott.com/en-us/hotels/miamj-jw-marriott-marquis-miami/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0",
+      "property_token": "ChYInbuooOe_wZNCGgovbS8wY205Z3N6EAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-05-02&check_out_date=2026-05-05&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&hotel_class=3%2C4%2C5&property_token=ChYInbuooOe_wZNCGgovbS8wY205Z3N6EAE&q=Miami&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 25.771089,
+        "longitude": -80.1894477
+      },
+      "check_in_time": "4:00\u202fPM",
+      "check_out_time": "12:00\u202fPM",
+      "rate_per_night": {
+        "lowest": "$698",
+        "extracted_lowest": 698,
+        "before_taxes_fees": "$618",
+        "extracted_before_taxes_fees": 618
+      },
+      "total_rate": {
+        "lowest": "$2,095",
+        "extracted_lowest": 2095,
+        "before_taxes_fees": "$1,854",
+        "extracted_before_taxes_fees": 1854
+      },
+      "nearby_places": [
+        {
+          "name": "Bayfront Park",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "8 min"
+            }
+          ]
+        },
+        {
+          "name": "Knight Center Metromover Station",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "5 min"
+            }
+          ]
+        },
+        {
+          "name": "Miami International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "21 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "48 min"
+            }
+          ]
+        },
+        {
+          "name": "Naked Farmer",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "5 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "5-star hotel",
+      "extracted_hotel_class": 5,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOdDY3yVEe5DGOcVVVd7ZDnPe03QFSmrfCkSblC=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOdDY3yVEe5DGOcVVVd7ZDnPe03QFSmrfCkSblC=s10000"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/R-BYuJnT6slcWWQvxNpwoal8SsEWEJE2W3P7jm5w5spQhu2I-Zltl9bhBUbYWI3Ny8AVhWx8pHm6ruYg1qE9tRAcYT28DBbcWlJMtDNOHkyaYbDKkITLBWMk3cSBvUNct1bc58U2iG6pmxT2LLFyYNqosxPQQw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/4000000/3780000/3779400/3779394/1dd49b22_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOwG3f8FWPeGz0U6QDAQt_81iwOR5ZZiRbtYBnY=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOwG3f8FWPeGz0U6QDAQt_81iwOR5ZZiRbtYBnY=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npuNkULbMkXRxOlXdtOvkoTyKwaWjp32S6G0InYoZISJEeL2LgzG6EhINHaBQbrVOTpkJN16XFoWHXtcCsUKBWXngC8SH7vfE3PvzlEWE3-cDzm2Az8yl5lg248yDA50f-PDqwwst-qI648=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIABIhDc8TRp0A_5C7ZfDs-rGJAP=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noyDLo0mDdT8135Krc4El-MQoNlUMb6LPpAs92qJSs147WdTc7ExQi86RRUM3R2XjESeuB3-BFwGsbpKdK4DKSP2S_OJsDMZjuVHvG2UesQ5XRZUJomnXGwj6BvgB-n6IOgpMVA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIC9tKu-CQ=s10000"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/wgN_ZZ1v8tQfiSE-tC9Rzki6rDoYPWMCdjFArv-pc3GWwpHLj7kC_0MBLHNXAIlT35UsUKHtIr2XttZFpgnNM-5o2UQ3D40ghVVmUk1pf7KPG8WurDZF0FdqhhkYKVIOY3WTtJYGrhKeQEHebe9YXI5ySueFOdE=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/4000000/3780000/3779400/3779394/d3926fb4_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noDckFzyanLLeYcFHA4s0RZP9QtUdzTBzHvfWTaO9_xtWs9w6us12skcVh6r4J4AjP2IUba9tcNwcTu97m9f5IPuLSobJFVN4cTEnvNDzwG9ZaJtIYShlqGfK9EKPkeSCTZwVbZ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICxo6ON-QE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqPE-d1YmK1hou36RCqKBginydPETh_av8855Xtd20UPVCGCCoGCcdNGt7XSka3oO9wrIlHInbAA0Xmmk3oUO6J2TUZB5YD_A42EVq70WPulXgk3fclg2SWFzmi59oa362Pk_CQ6w=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgMDo04XFsAE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nobhfXwEI_s2QhdiEjxV_bkoBlBZfPiNRfdQKhd4_fgrV__obIoy9m2VCANkVQP636HIe0M66BLLDEyY0XXqU1KZP3bqSFhAhm_hLO7-K2f2Ufr_7zeG3-0_eSdMTrC8aVkveY=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDR2ZCLeQ=s10000"
+        }
+      ],
+      "overall_rating": 4.4,
+      "reviews": 2574,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 1822
+        },
+        {
+          "stars": 4,
+          "count": 375
+        },
+        {
+          "stars": 3,
+          "count": 136
+        },
+        {
+          "stars": 2,
+          "count": 64
+        },
+        {
+          "stars": 1,
+          "count": 177
+        }
+      ],
+      "location_rating": 4.8,
+      "reviews_breakdown": [
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 612,
+          "positive": 421,
+          "negative": 166,
+          "neutral": 25
+        },
+        {
+          "name": "Fitness",
+          "description": "Fitness",
+          "total_mentioned": 154,
+          "positive": 91,
+          "negative": 50,
+          "neutral": 13
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 645,
+          "positive": 509,
+          "negative": 106,
+          "neutral": 30
+        },
+        {
+          "name": "Room",
+          "description": "Room amenities",
+          "total_mentioned": 230,
+          "positive": 155,
+          "negative": 58,
+          "neutral": 17
+        },
+        {
+          "name": "Parking",
+          "description": "Parking",
+          "total_mentioned": 140,
+          "positive": 32,
+          "negative": 82,
+          "neutral": 26
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 263,
+          "positive": 218,
+          "negative": 28,
+          "neutral": 17
+        }
+      ],
+      "amenities": [
+        "Wi-Fi ($)",
+        "Parking ($)",
+        "Outdoor pool",
+        "Air conditioning",
+        "Fitness center",
+        "Spa",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Golf",
+        "Full-service laundry",
+        "Accessible",
+        "Business center",
+        "Kid-friendly"
+      ],
+      "eco_certified": true
+    },
+    {
+      "type": "hotel",
+      "name": "Hampton Inn & Suites by Hilton Miami Airport South Blue Lagoon",
+      "description": "Modern airport hotel with a free hot breakfast & WiFi, plus an outdoor pool & free airport shuttle.",
+      "link": "https://www.hilton.com/en/hotels/miahshx-hampton-suites-miami-airport-south-blue-lagoon/?SEO_id=GMB-AMER-HX-MIAHSHX&y_source=1_MjA4NDk5Ny03MTUtbG9jYXRpb24ud2Vic2l0ZQ==",
+      "property_token": "ChcIl9X-uPLu7eNNGgsvZy8xdGZncTV0dhAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-05-02&check_out_date=2026-05-05&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&hotel_class=3%2C4%2C5&property_token=ChcIl9X-uPLu7eNNGgsvZy8xdGZncTV0dhAB&q=Miami&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 25.779042,
+        "longitude": -80.2880457
+      },
+      "check_in_time": "3:00\u202fPM",
+      "check_out_time": "12:00\u202fPM",
+      "rate_per_night": {
+        "lowest": "$196",
+        "extracted_lowest": 196,
+        "before_taxes_fees": "$173",
+        "extracted_before_taxes_fees": 173
+      },
+      "total_rate": {
+        "lowest": "$587",
+        "extracted_lowest": 587,
+        "before_taxes_fees": "$520",
+        "extracted_before_taxes_fees": 520
+      },
+      "nearby_places": [
+        {
+          "name": "NW 7 St & NW 57 Av",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        },
+        {
+          "name": "Miami International Airport",
+          "transportations": [
+            {
+              "type": "Public transport",
+              "duration": "3 min"
+            },
+            {
+              "type": "Taxi",
+              "duration": "13 min"
+            }
+          ]
+        },
+        {
+          "name": "Casa Juan Restaurant",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "6 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "3-star hotel",
+      "extracted_hotel_class": 3,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPIPsiS2o0nuY7V16LVd9MbJpauwF1q0vhEDM8c=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPIPsiS2o0nuY7V16LVd9MbJpauwF1q0vhEDM8c=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nprMH5SKDc8eR2wCMiQfjySCM-Yc-GWyWY8GQlXHeNg7A6SdPkONj15WnaiBvMH45u3Vk0nx7CPZiIk44gwVkr_fxVcBfDmGczeYXaXgtYzO-VsSiQzdD_X-UTj7jwEyPoc5YNY=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICp48bPzwE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMMzjAC6IHqEUKHlZgSs3Hs9rIzHxy-_SYn40xE=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMMzjAC6IHqEUKHlZgSs3Hs9rIzHxy-_SYn40xE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPP6aidPl8qeu3oMAy6RHQLrtt9yi2xIp-1rqPJ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPP6aidPl8qeu3oMAy6RHQLrtt9yi2xIp-1rqPJ=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOw0UYrqz7J4v0hfRBveRHoUMfByMAjRXQvaNFF=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOw0UYrqz7J4v0hfRBveRHoUMfByMAjRXQvaNFF=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPt_THVWJI5fsYmtoORRdr465p4pYImSPLcST12=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPt_THVWJI5fsYmtoORRdr465p4pYImSPLcST12=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNgtClgjL2jl3sG3hR6tBKByQLZD9rcM5UlE0Zj=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNgtClgjL2jl3sG3hR6tBKByQLZD9rcM5UlE0Zj=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOcX18gI3mkip-euXSHQvMGs5vHv2NFEdj8jRpd=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOcX18gI3mkip-euXSHQvMGs5vHv2NFEdj8jRpd=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP9QdLkY_b9rFSXdL0QB_GzWSwrPt4FZt65fo3-=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipP9QdLkY_b9rFSXdL0QB_GzWSwrPt4FZt65fo3-=s10000"
+        }
+      ],
+      "overall_rating": 4.4,
+      "reviews": 1861,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 1138
+        },
+        {
+          "stars": 4,
+          "count": 457
+        },
+        {
+          "stars": 3,
+          "count": 139
+        },
+        {
+          "stars": 2,
+          "count": 55
+        },
+        {
+          "stars": 1,
+          "count": 72
+        }
+      ],
+      "location_rating": 4.1,
+      "reviews_breakdown": [
+        {
+          "name": "Transit",
+          "description": "Public transit",
+          "total_mentioned": 243,
+          "positive": 171,
+          "negative": 34,
+          "neutral": 38
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 251,
+          "positive": 201,
+          "negative": 24,
+          "neutral": 26
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 353,
+          "positive": 284,
+          "negative": 31,
+          "neutral": 38
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 415,
+          "positive": 344,
+          "negative": 49,
+          "neutral": 22
+        },
+        {
+          "name": "Restaurant",
+          "description": "Restaurant",
+          "total_mentioned": 119,
+          "positive": 96,
+          "negative": 9,
+          "neutral": 14
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 388,
+          "positive": 315,
+          "negative": 58,
+          "neutral": 15
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Free Wi-Fi",
+        "Free parking",
+        "Outdoor pool",
+        "Hot tub",
+        "Air conditioning",
+        "Fitness center",
+        "Kitchen in some rooms",
+        "Airport shuttle",
+        "Accessible",
+        "Kid-friendly",
+        "Smoke-free property"
+      ],
+      "eco_certified": true
+    }
+  ],
+  "brands": [
+    {
+      "id": 33,
+      "name": "Accor Live Limitless",
+      "children": [
+        {
+          "id": 451,
+          "name": "Hyde"
+        },
+        {
+          "id": 47,
+          "name": "Novotel"
+        },
+        {
+          "id": 90,
+          "name": "Pullman Hotels and Resorts"
+        },
+        {
+          "id": 371,
+          "name": "SLS"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Best Western International",
+      "children": [
+        {
+          "id": 104,
+          "name": "Best Western Plus"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Choice Hotels",
+      "children": [
+        {
+          "id": 27,
+          "name": "Comfort"
+        }
+      ]
+    },
+    {
+      "id": 446,
+      "name": "Extended Stay America",
+      "children": [
+        {
+          "id": 442,
+          "name": "Extended Stay America Premier Suites"
+        },
+        {
+          "id": 444,
+          "name": "Extended Stay America Suites"
+        }
+      ]
+    },
+    {
+      "id": 289,
+      "name": "Four Seasons"
+    },
+    {
+      "id": 28,
+      "name": "Hilton Honors",
+      "children": [
+        {
+          "id": 81,
+          "name": "DoubleTree by Hilton"
+        },
+        {
+          "id": 115,
+          "name": "Hampton by Hilton"
+        },
+        {
+          "id": 71,
+          "name": "Hilton Garden Inn"
+        },
+        {
+          "id": 54,
+          "name": "Hilton Hotels & Resorts"
+        },
+        {
+          "id": 36,
+          "name": "Home2 Suites"
+        },
+        {
+          "id": 77,
+          "name": "Homewood Suites by Hilton"
+        },
+        {
+          "id": 286,
+          "name": "Tru By Hilton"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Hyatt",
+      "children": [
+        {
+          "id": 119,
+          "name": "Hyatt Centric"
+        },
+        {
+          "id": 120,
+          "name": "Hyatt House"
+        },
+        {
+          "id": 122,
+          "name": "Hyatt Regency"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "IHG Hotels & Resorts",
+      "children": [
+        {
+          "id": 64,
+          "name": "Holiday Inn"
+        },
+        {
+          "id": 56,
+          "name": "Holiday Inn Express"
+        },
+        {
+          "id": 87,
+          "name": "Hotel Indigo"
+        },
+        {
+          "id": 2,
+          "name": "InterContinental Hotels & Resorts"
+        },
+        {
+          "id": 127,
+          "name": "Kimpton Hotels & Restaurants"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Marriott Bonvoy",
+      "children": [
+        {
+          "id": 128,
+          "name": "AC Hotels"
+        },
+        {
+          "id": 60,
+          "name": "Aloft Hotels"
+        },
+        {
+          "id": 59,
+          "name": "Autograph Collection"
+        },
+        {
+          "id": 86,
+          "name": "Courtyard by Marriott"
+        },
+        {
+          "id": 134,
+          "name": "Element"
+        },
+        {
+          "id": 58,
+          "name": "Fairfield Inn by Marriott"
+        },
+        {
+          "id": 135,
+          "name": "Four Points by Sheraton"
+        },
+        {
+          "id": 26,
+          "name": "JW Marriott Hotels"
+        },
+        {
+          "id": 61,
+          "name": "Marriott Hotels & Resorts"
+        },
+        {
+          "id": 129,
+          "name": "Moxy"
+        },
+        {
+          "id": 75,
+          "name": "Residence Inn by Marriott"
+        },
+        {
+          "id": 3,
+          "name": "Ritz-Carlton Hotel Company"
+        },
+        {
+          "id": 12,
+          "name": "Sheraton Hotels and Resorts"
+        },
+        {
+          "id": 83,
+          "name": "SpringHill Suites"
+        },
+        {
+          "id": 40,
+          "name": "TownePlace Suites"
+        },
+        {
+          "id": 154,
+          "name": "Tribute Portfolio"
+        },
+        {
+          "id": 137,
+          "name": "W Hotels"
+        }
+      ]
+    },
+    {
+      "id": 353,
+      "name": "OYO",
+      "children": [
+        {
+          "id": 99,
+          "name": "OYO Rooms"
+        }
+      ]
+    },
+    {
+      "id": 424,
+      "name": "Sonesta Hotels",
+      "children": [
+        {
+          "id": 426,
+          "name": "Sonesta"
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Wyndham Hotels & Resorts",
+      "children": [
+        {
+          "id": 16,
+          "name": "Travelodge"
+        }
+      ]
+    }
+  ],
+  "serpapi_pagination": {
+    "current_from": 1,
+    "current_to": 18,
+    "next_page_token": "CBI=",
+    "next": "https://serpapi.com/search.json?adults=2&check_in_date=2026-05-02&check_out_date=2026-05-05&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&hotel_class=3%2C4%2C5&next_page_token=CBI%3D&q=Miami&sort_by=8"
+  }
+}

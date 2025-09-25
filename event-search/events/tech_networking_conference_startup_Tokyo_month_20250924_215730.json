@@ -1,0 +1,24 @@
+{
+  "search_metadata": {
+    "search_id": "tech_networking_conference_startup_Tokyo_month_20250924_215730",
+    "query": "tech networking conference startup",
+    "location": "Tokyo",
+    "date_filter": "month",
+    "event_type": null,
+    "language": "en",
+    "country": "us",
+    "search_timestamp": "2025-09-24T21:57:30.989587",
+    "total_results": 0
+  },
+  "search_parameters": {
+    "q": "tech networking conference startup in Tokyo",
+    "engine": "google_events",
+    "htichips": "date:month",
+    "hl": "en",
+    "gl": "us"
+  },
+  "search_information": {
+    "events_results_state": "Fully empty"
+  },
+  "events_results": []
+}

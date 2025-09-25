@@ -1,0 +1,1016 @@
+{
+  "search_metadata": {
+    "search_id": "SJU_NRT_2025-11-20_2025-11-25_20250924_215641",
+    "departure": "SJU",
+    "arrival": "NRT",
+    "outbound_date": "2025-11-20",
+    "return_date": "2025-11-25",
+    "trip_type": "Round trip",
+    "passengers": {
+      "adults": 1,
+      "children": 0,
+      "infants_in_seat": 0,
+      "infants_on_lap": 0
+    },
+    "travel_class": "Business",
+    "currency": "USD",
+    "search_timestamp": "2025-09-24T21:56:41.028036"
+  },
+  "best_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Luis Munoz Marin International Airport",
+            "id": "SJU",
+            "time": "2025-11-20 02:05"
+          },
+          "arrival_airport": {
+            "name": "Newark Liberty International Airport",
+            "id": "EWR",
+            "time": "2025-11-20 05:24"
+          },
+          "duration": 259,
+          "airplane": "Boeing 737MAX 9 Passenger",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "First Class",
+          "flight_number": "UA 2219",
+          "extensions": [
+            "Standard recliner seat",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 274 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Newark Liberty International Airport",
+            "id": "EWR",
+            "time": "2025-11-20 11:00"
+          },
+          "arrival_airport": {
+            "name": "Narita International Airport",
+            "id": "NRT",
+            "time": "2025-11-21 15:15"
+          },
+          "duration": 855,
+          "airplane": "Boeing 787",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Business Class",
+          "flight_number": "UA 79",
+          "extensions": [
+            "Lie flat seat",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1937 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 336,
+          "name": "Newark Liberty International Airport",
+          "id": "EWR"
+        }
+      ],
+      "total_duration": 1450,
+      "carbon_emissions": {
+        "this_flight": 2212000,
+        "typical_for_this_route": 3064000,
+        "difference_percent": -28
+      },
+      "price": 9864,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "departure_token": "WyJDalJJYWt0dGFGRkJaRk5WYTNkQlFrSkhUbmRDUnkwdExTMHRMUzB0TFMxbFptWXlNa0ZCUVVGQlIycFZiMVpuU2tGcU1USkJFZ3RWUVRJeU1UbDhWVUUzT1JvTENPK1pQQkFDR2dOVlUwUTRISER2bVR3PSIsW1siU0pVIiwiMjAyNS0xMS0yMCIsIkVXUiIsbnVsbCwiVUEiLCIyMjE5Il0sWyJFV1IiLCIyMDI1LTExLTIwIiwiTlJUIixudWxsLCJVQSIsIjc5Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Luis Munoz Marin International Airport",
+            "id": "SJU",
+            "time": "2025-11-20 06:05"
+          },
+          "arrival_airport": {
+            "name": "Boston Logan International Airport",
+            "id": "BOS",
+            "time": "2025-11-20 09:14"
+          },
+          "duration": 249,
+          "airplane": "Airbus A321",
+          "airline": "JetBlue",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "travel_class": "Economy",
+          "flight_number": "B6 162",
+          "ticket_also_sold_by": [
+            "JAL"
+          ],
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 268 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Boston Logan International Airport",
+            "id": "BOS",
+            "time": "2025-11-20 12:05"
+          },
+          "arrival_airport": {
+            "name": "Narita International Airport",
+            "id": "NRT",
+            "time": "2025-11-21 16:15"
+          },
+          "duration": 850,
+          "airplane": "Boeing 787",
+          "airline": "JAL",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JL.png",
+          "travel_class": "Business Class",
+          "flight_number": "JL 7",
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 2478 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 171,
+          "name": "Boston Logan International Airport",
+          "id": "BOS"
+        }
+      ],
+      "total_duration": 1270,
+      "carbon_emissions": {
+        "this_flight": 2747000,
+        "typical_for_this_route": 3064000,
+        "difference_percent": -10
+      },
+      "price": 9872,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+      "departure_token": "WyJDalJJYWt0dGFGRkJaRk5WYTNkQlFrSkhUbmRDUnkwdExTMHRMUzB0TFMxbFptWXlNa0ZCUVVGQlIycFZiMVpuU2tGcU1USkJFZ2xDTmpFMk1ueEtURGNhQ3dqbm56d1FBaG9EVlZORU9CeHc1NTg4IixbWyJTSlUiLCIyMDI1LTExLTIwIiwiQk9TIixudWxsLCJCNiIsIjE2MiJdLFsiQk9TIiwiMjAyNS0xMS0yMCIsIk5SVCIsbnVsbCwiSkwiLCI3Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Luis Munoz Marin International Airport",
+            "id": "SJU",
+            "time": "2025-11-20 19:35"
+          },
+          "arrival_airport": {
+            "name": "Newark Liberty International Airport",
+            "id": "EWR",
+            "time": "2025-11-20 22:53"
+          },
+          "duration": 258,
+          "airplane": "Boeing 737MAX 9 Passenger",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "First Class",
+          "flight_number": "UA 2036",
+          "extensions": [
+            "Standard recliner seat",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 274 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Newark Liberty International Airport",
+            "id": "EWR",
+            "time": "2025-11-21 11:00"
+          },
+          "arrival_airport": {
+            "name": "Narita International Airport",
+            "id": "NRT",
+            "time": "2025-11-22 15:15"
+          },
+          "duration": 855,
+          "airplane": "Boeing 787",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Business Class",
+          "flight_number": "UA 79",
+          "extensions": [
+            "Lie flat seat",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1937 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 727,
+          "name": "Newark Liberty International Airport",
+          "id": "EWR",
+          "overnight": true
+        }
+      ],
+      "total_duration": 1840,
+      "carbon_emissions": {
+        "this_flight": 2212000,
+        "typical_for_this_route": 3064000,
+        "difference_percent": -28
+      },
+      "price": 10310,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "departure_token": "WyJDalJJYWt0dGFGRkJaRk5WYTNkQlFrSkhUbmRDUnkwdExTMHRMUzB0TFMxbFptWXlNa0ZCUVVGQlIycFZiMVpuU2tGcU1USkJFZ3RWUVRJd016WjhWVUUzT1JvTENKUDJQaEFDR2dOVlUwUTRISENUOWo0PSIsW1siU0pVIiwiMjAyNS0xMS0yMCIsIkVXUiIsbnVsbCwiVUEiLCIyMDM2Il0sWyJFV1IiLCIyMDI1LTExLTIxIiwiTlJUIixudWxsLCJVQSIsIjc5Il1dXQ=="
+    }
+  ],
+  "other_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Luis Munoz Marin International Airport",
+            "id": "SJU",
+            "time": "2025-11-20 19:35"
+          },
+          "arrival_airport": {
+            "name": "Newark Liberty International Airport",
+            "id": "EWR",
+            "time": "2025-11-20 22:53"
+          },
+          "duration": 258,
+          "airplane": "Boeing 737MAX 9 Passenger",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "First Class",
+          "flight_number": "UA 2036",
+          "extensions": [
+            "Standard recliner seat",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 274 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Newark Liberty International Airport",
+            "id": "EWR",
+            "time": "2025-11-21 06:00"
+          },
+          "arrival_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2025-11-21 09:34"
+          },
+          "duration": 394,
+          "airplane": "Boeing 757",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Business Class",
+          "flight_number": "UA 2115",
+          "extensions": [
+            "Lie flat seat",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 657 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2025-11-21 10:40"
+          },
+          "arrival_airport": {
+            "name": "Narita International Airport",
+            "id": "NRT",
+            "time": "2025-11-22 15:00"
+          },
+          "duration": 680,
+          "airplane": "Boeing 777",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Business Class",
+          "flight_number": "UA 837",
+          "extensions": [
+            "Lie flat seat",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 2183 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 427,
+          "name": "Newark Liberty International Airport",
+          "id": "EWR",
+          "overnight": true
+        },
+        {
+          "duration": 66,
+          "name": "San Francisco International Airport",
+          "id": "SFO"
+        }
+      ],
+      "total_duration": 1825,
+      "carbon_emissions": {
+        "this_flight": 3115000,
+        "typical_for_this_route": 3064000,
+        "difference_percent": 2
+      },
+      "price": 10264,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "departure_token": "WyJDalJJYWt0dGFGRkJaRk5WYTNkQlFrSkhUbmRDUnkwdExTMHRMUzB0TFMxbFptWXlNa0ZCUVVGQlIycFZiMVpuU2tGcU1USkJFaE5WUVRJd016WjhWVUV5TVRFMWZGVkJPRE0zR2dzSXI5SStFQUlhQTFWVFJEZ2NjSy9TUGc9PSIsW1siU0pVIiwiMjAyNS0xMS0yMCIsIkVXUiIsbnVsbCwiVUEiLCIyMDM2Il0sWyJFV1IiLCIyMDI1LTExLTIxIiwiU0ZPIixudWxsLCJVQSIsIjIxMTUiXSxbIlNGTyIsIjIwMjUtMTEtMjEiLCJOUlQiLG51bGwsIlVBIiwiODM3Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Luis Munoz Marin International Airport",
+            "id": "SJU",
+            "time": "2025-11-20 18:42"
+          },
+          "arrival_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2025-11-20 20:37"
+          },
+          "duration": 175,
+          "airplane": "Airbus A321neo",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Business Class",
+          "flight_number": "AA 1870",
+          "extensions": [
+            "Standard recliner seat",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 175 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2025-11-21 06:35"
+          },
+          "arrival_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2025-11-21 09:05"
+          },
+          "duration": 210,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "First Class",
+          "flight_number": "AA 3155",
+          "extensions": [
+            "Standard recliner seat",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 222 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2025-11-21 10:20"
+          },
+          "arrival_airport": {
+            "name": "Narita International Airport",
+            "id": "NRT",
+            "time": "2025-11-22 14:40"
+          },
+          "duration": 800,
+          "airplane": "Boeing 777",
+          "airline": "JAL",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JL.png",
+          "travel_class": "Business Class",
+          "flight_number": "JL 55",
+          "ticket_also_sold_by": [
+            "American"
+          ],
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 2674 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 598,
+          "name": "Miami International Airport",
+          "id": "MIA",
+          "overnight": true
+        },
+        {
+          "duration": 75,
+          "name": "Chicago O'Hare International Airport",
+          "id": "ORD"
+        }
+      ],
+      "total_duration": 1858,
+      "carbon_emissions": {
+        "this_flight": 3073000,
+        "typical_for_this_route": 3064000,
+        "difference_percent": 0
+      },
+      "price": 10272,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+      "departure_token": "WyJDalJJYWt0dGFGRkJaRk5WYTNkQlFrSkhUbmRDUnkwdExTMHRMUzB0TFMxbFptWXlNa0ZCUVVGQlIycFZiMVpuU2tGcU1USkJFaEpCUVRFNE56QjhRVUV6TVRVMWZFcE1OVFVhQ3dqdDJENFFBaG9EVlZORU9CeHc3ZGcrIixbWyJTSlUiLCIyMDI1LTExLTIwIiwiTUlBIixudWxsLCJBQSIsIjE4NzAiXSxbIk1JQSIsIjIwMjUtMTEtMjEiLCJPUkQiLG51bGwsIkFBIiwiMzE1NSJdLFsiT1JEIiwiMjAyNS0xMS0yMSIsIk5SVCIsbnVsbCwiSkwiLCI1NSJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Luis Munoz Marin International Airport",
+            "id": "SJU",
+            "time": "2025-11-20 18:42"
+          },
+          "arrival_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2025-11-20 20:37"
+          },
+          "duration": 175,
+          "airplane": "Airbus A321neo",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Business Class",
+          "flight_number": "AA 1870",
+          "extensions": [
+            "Standard recliner seat",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 175 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2025-11-20 22:07"
+          },
+          "arrival_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2025-11-21 00:37"
+          },
+          "duration": 210,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "First Class",
+          "flight_number": "AA 3148",
+          "extensions": [
+            "Standard recliner seat",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 222 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2025-11-21 10:20"
+          },
+          "arrival_airport": {
+            "name": "Narita International Airport",
+            "id": "NRT",
+            "time": "2025-11-22 14:40"
+          },
+          "duration": 800,
+          "airplane": "Boeing 777",
+          "airline": "JAL",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JL.png",
+          "travel_class": "Business Class",
+          "flight_number": "JL 55",
+          "ticket_also_sold_by": [
+            "American"
+          ],
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 2674 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 90,
+          "name": "Miami International Airport",
+          "id": "MIA"
+        },
+        {
+          "duration": 583,
+          "name": "Chicago O'Hare International Airport",
+          "id": "ORD",
+          "overnight": true
+        }
+      ],
+      "total_duration": 1858,
+      "carbon_emissions": {
+        "this_flight": 3073000,
+        "typical_for_this_route": 3064000,
+        "difference_percent": 0
+      },
+      "price": 10272,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+      "departure_token": "WyJDalJJYWt0dGFGRkJaRk5WYTNkQlFrSkhUbmRDUnkwdExTMHRMUzB0TFMxbFptWXlNa0ZCUVVGQlIycFZiMVpuU2tGcU1USkJFaEpCUVRFNE56QjhRVUV6TVRRNGZFcE1OVFVhQ3dqdDJENFFBaG9EVlZORU9CeHc3ZGcrIixbWyJTSlUiLCIyMDI1LTExLTIwIiwiTUlBIixudWxsLCJBQSIsIjE4NzAiXSxbIk1JQSIsIjIwMjUtMTEtMjAiLCJPUkQiLG51bGwsIkFBIiwiMzE0OCJdLFsiT1JEIiwiMjAyNS0xMS0yMSIsIk5SVCIsbnVsbCwiSkwiLCI1NSJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Luis Munoz Marin International Airport",
+            "id": "SJU",
+            "time": "2025-11-20 15:53"
+          },
+          "arrival_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2025-11-20 19:12"
+          },
+          "duration": 319,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Business Class",
+          "flight_number": "AA 3074",
+          "extensions": [
+            "Standard recliner seat",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 357 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2025-11-21 10:20"
+          },
+          "arrival_airport": {
+            "name": "Narita International Airport",
+            "id": "NRT",
+            "time": "2025-11-22 14:40"
+          },
+          "duration": 800,
+          "airplane": "Boeing 777",
+          "airline": "JAL",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JL.png",
+          "travel_class": "Business Class",
+          "flight_number": "JL 55",
+          "ticket_also_sold_by": [
+            "American"
+          ],
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 2674 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 908,
+          "name": "Chicago O'Hare International Airport",
+          "id": "ORD",
+          "overnight": true
+        }
+      ],
+      "total_duration": 2027,
+      "carbon_emissions": {
+        "this_flight": 3032000,
+        "typical_for_this_route": 3064000,
+        "difference_percent": -1
+      },
+      "price": 10314,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+      "departure_token": "WyJDalJJYWt0dGFGRkJaRk5WYTNkQlFrSkhUbmRDUnkwdExTMHRMUzB0TFMxbFptWXlNa0ZCUVVGQlIycFZiMVpuU2tGcU1USkJFZ3RCUVRNd056UjhTa3cxTlJvTENJLzVQaEFDR2dOVlUwUTRISENQK1Q0PSIsW1siU0pVIiwiMjAyNS0xMS0yMCIsIk9SRCIsbnVsbCwiQUEiLCIzMDc0Il0sWyJPUkQiLCIyMDI1LTExLTIxIiwiTlJUIixudWxsLCJKTCIsIjU1Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Luis Munoz Marin International Airport",
+            "id": "SJU",
+            "time": "2025-11-20 16:08"
+          },
+          "arrival_airport": {
+            "name": "Dallas Fort Worth International Airport",
+            "id": "DFW",
+            "time": "2025-11-20 19:20"
+          },
+          "duration": 312,
+          "airplane": "Boeing 777",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Business Class",
+          "flight_number": "AA 3082",
+          "extensions": [
+            "Lie flat seat",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1007 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Dallas Fort Worth International Airport",
+            "id": "DFW",
+            "time": "2025-11-21 10:25"
+          },
+          "arrival_airport": {
+            "name": "Narita International Airport",
+            "id": "NRT",
+            "time": "2025-11-22 15:30"
+          },
+          "duration": 845,
+          "airplane": "Boeing 777",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Business Class",
+          "flight_number": "AA 61",
+          "extensions": [
+            "Lie flat seat",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 2761 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 905,
+          "name": "Dallas Fort Worth International Airport",
+          "id": "DFW",
+          "overnight": true
+        }
+      ],
+      "total_duration": 2062,
+      "carbon_emissions": {
+        "this_flight": 3769000,
+        "typical_for_this_route": 3064000,
+        "difference_percent": 23
+      },
+      "price": 11874,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "departure_token": "WyJDalJJYWt0dGFGRkJaRk5WYTNkQlFrSkhUbmRDUnkwdExTMHRMUzB0TFMxbFptWXlNa0ZCUVVGQlIycFZiMVpuU2tGcU1USkJFZ3RCUVRNd09ESjhRVUUyTVJvTENMKzhTQkFDR2dOVlUwUTRISEMvdkVnPSIsW1siU0pVIiwiMjAyNS0xMS0yMCIsIkRGVyIsbnVsbCwiQUEiLCIzMDgyIl0sWyJERlciLCIyMDI1LTExLTIxIiwiTlJUIixudWxsLCJBQSIsIjYxIl1dXQ=="
+    }
+  ],
+  "price_insights": {
+    "lowest_price": 9864,
+    "price_level": "high",
+    "typical_price_range": [
+      6400,
+      9400
+    ],
+    "price_history": [
+      [
+        1753502400,
+        6441
+      ],
+      [
+        1753588800,
+        6441
+      ],
+      [
+        1753675200,
+        6441
+      ],
+      [
+        1753761600,
+        6441
+      ],
+      [
+        1753848000,
+        6441
+      ],
+      [
+        1753934400,
+        6441
+      ],
+      [
+        1754020800,
+        6441
+      ],
+      [
+        1754107200,
+        7444
+      ],
+      [
+        1754193600,
+        7444
+      ],
+      [
+        1754280000,
+        8520
+      ],
+      [
+        1754366400,
+        8520
+      ],
+      [
+        1754452800,
+        8521
+      ],
+      [
+        1754539200,
+        6328
+      ],
+      [
+        1754625600,
+        6328
+      ],
+      [
+        1754712000,
+        6328
+      ],
+      [
+        1754798400,
+        6328
+      ],
+      [
+        1754884800,
+        8536
+      ],
+      [
+        1754971200,
+        8536
+      ],
+      [
+        1755057600,
+        8019
+      ],
+      [
+        1755144000,
+        8019
+      ],
+      [
+        1755230400,
+        8019
+      ],
+      [
+        1755316800,
+        8019
+      ],
+      [
+        1755403200,
+        8521
+      ],
+      [
+        1755489600,
+        8536
+      ],
+      [
+        1755576000,
+        8536
+      ],
+      [
+        1755662400,
+        7077
+      ],
+      [
+        1755748800,
+        6831
+      ],
+      [
+        1755835200,
+        6831
+      ],
+      [
+        1755921600,
+        7077
+      ],
+      [
+        1756008000,
+        6637
+      ],
+      [
+        1756094400,
+        6637
+      ],
+      [
+        1756180800,
+        6637
+      ],
+      [
+        1756267200,
+        6638
+      ],
+      [
+        1756353600,
+        6638
+      ],
+      [
+        1756440000,
+        6638
+      ],
+      [
+        1756526400,
+        6638
+      ],
+      [
+        1756612800,
+        6638
+      ],
+      [
+        1756699200,
+        6638
+      ],
+      [
+        1756785600,
+        6638
+      ],
+      [
+        1756872000,
+        6638
+      ],
+      [
+        1756958400,
+        6638
+      ],
+      [
+        1757044800,
+        7004
+      ],
+      [
+        1757131200,
+        7004
+      ],
+      [
+        1757217600,
+        7004
+      ],
+      [
+        1757304000,
+        7004
+      ],
+      [
+        1757390400,
+        7004
+      ],
+      [
+        1757476800,
+        9694
+      ],
+      [
+        1757563200,
+        8869
+      ],
+      [
+        1757649600,
+        8869
+      ],
+      [
+        1757736000,
+        9694
+      ],
+      [
+        1757822400,
+        9694
+      ],
+      [
+        1757908800,
+        7961
+      ],
+      [
+        1757995200,
+        7961
+      ],
+      [
+        1758081600,
+        7694
+      ],
+      [
+        1758168000,
+        7694
+      ],
+      [
+        1758254400,
+        7919
+      ],
+      [
+        1758340800,
+        7919
+      ],
+      [
+        1758427200,
+        9694
+      ],
+      [
+        1758513600,
+        8059
+      ],
+      [
+        1758600000,
+        7872
+      ],
+      [
+        1758686400,
+        9864
+      ]
+    ]
+  },
+  "airports": [
+    {
+      "departure": [
+        {
+          "airport": {
+            "id": "SJU",
+            "name": "Luis Munoz Marin International Airport"
+          },
+          "city": "San Juan",
+          "country": "Puerto Rico",
+          "country_code": "PR",
+          "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTftx6w9oAuwZ6EL1kfaTYqN9aPgmcV3sMgk3J3b_C0S5IiHrsf0t-rwCXrzrK1uEWZevs4LhKQ65j-5g",
+          "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRoenAheiHgUnXvuiIOEyO3eBCMdy72SZOZ7DdkQ4mwfWY-XfkZpDcNevhm85RCYpmhz2GLMvGVnjE5YoXbkXQlAfQdPM9z-sJfsLoUbm4"
+        }
+      ],
+      "arrival": [
+        {
+          "airport": {
+            "id": "NRT",
+            "name": "Narita International Airport"
+          },
+          "city": "Tokyo",
+          "country": "Japan",
+          "country_code": "JP",
+          "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTqHkzEeI2bSglPzmSGZL7bxXmn0wJgOn2ZtEN8I47uBnzY1CnHzGtD-YseJXqyexcAcw_uJp-D5HTkCg",
+          "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRLnIToEgwiM_jV3cbw5eQZoUAIg6XqdrJAiClDyyg0w-JBSRN5ZeOT-iFb3SvwkwP1uoBCmT-gKE5VcyCYf-xq4guL4NAFICSaNyOnYOA"
+        }
+      ]
+    },
+    {
+      "departure": [
+        {
+          "airport": {
+            "id": "NRT",
+            "name": "Narita International Airport"
+          },
+          "city": "Tokyo",
+          "country": "Japan",
+          "country_code": "JP",
+          "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTqHkzEeI2bSglPzmSGZL7bxXmn0wJgOn2ZtEN8I47uBnzY1CnHzGtD-YseJXqyexcAcw_uJp-D5HTkCg",
+          "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRLnIToEgwiM_jV3cbw5eQZoUAIg6XqdrJAiClDyyg0w-JBSRN5ZeOT-iFb3SvwkwP1uoBCmT-gKE5VcyCYf-xq4guL4NAFICSaNyOnYOA"
+        }
+      ],
+      "arrival": [
+        {
+          "airport": {
+            "id": "SJU",
+            "name": "Luis Munoz Marin International Airport"
+          },
+          "city": "San Juan",
+          "country": "Puerto Rico",
+          "country_code": "PR",
+          "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTftx6w9oAuwZ6EL1kfaTYqN9aPgmcV3sMgk3J3b_C0S5IiHrsf0t-rwCXrzrK1uEWZevs4LhKQ65j-5g",
+          "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRoenAheiHgUnXvuiIOEyO3eBCMdy72SZOZ7DdkQ4mwfWY-XfkZpDcNevhm85RCYpmhz2GLMvGVnjE5YoXbkXQlAfQdPM9z-sJfsLoUbm4"
+        }
+      ]
+    }
+  ]
+}

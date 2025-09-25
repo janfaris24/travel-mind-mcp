@@ -1,0 +1,694 @@
+{
+  "search_metadata": {
+    "search_id": "SJU_MIA_2026-05-02_2026-05-05_20250924_215311",
+    "departure": "SJU",
+    "arrival": "MIA",
+    "outbound_date": "2026-05-02",
+    "return_date": "2026-05-05",
+    "trip_type": "Round trip",
+    "passengers": {
+      "adults": 2,
+      "children": 0,
+      "infants_in_seat": 0,
+      "infants_on_lap": 0
+    },
+    "travel_class": "Economy",
+    "currency": "USD",
+    "search_timestamp": "2025-09-24T21:53:11.238944"
+  },
+  "best_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Luis Munoz Marin International Airport",
+            "id": "SJU",
+            "time": "2026-05-02 18:55"
+          },
+          "arrival_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2026-05-02 21:50"
+          },
+          "duration": 175,
+          "airplane": "Boeing 737",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 2853",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 274 kg"
+          ]
+        }
+      ],
+      "total_duration": 175,
+      "carbon_emissions": {
+        "this_flight": 274000,
+        "typical_for_this_route": 261000,
+        "difference_percent": 5
+      },
+      "price": 450,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "Checked baggage for a fee",
+        "Bag and fare conditions depend on the return flight"
+      ],
+      "departure_token": "WyJDalJJVW5GUFExTkVaSFI2YzJkQlFURjFabEZDUnkwdExTMHRMUzB0TFhscFltUmpOVUZCUVVGQlIycFZiMGxaVGtsMGNXZEJFZ1pCUVRJNE5UTWFDd2pJM3dJUUFob0RWVk5FT0J4d3lOOEMiLFtbIlNKVSIsIjIwMjYtMDUtMDIiLCJNSUEiLG51bGwsIkFBIiwiMjg1MyJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Luis Munoz Marin International Airport",
+            "id": "SJU",
+            "time": "2026-05-02 06:25"
+          },
+          "arrival_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2026-05-02 09:20"
+          },
+          "duration": 175,
+          "airplane": "Boeing 737",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 2817",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 274 kg"
+          ]
+        }
+      ],
+      "total_duration": 175,
+      "carbon_emissions": {
+        "this_flight": 274000,
+        "typical_for_this_route": 261000,
+        "difference_percent": 5
+      },
+      "price": 500,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "Checked baggage for a fee",
+        "Bag and fare conditions depend on the return flight"
+      ],
+      "departure_token": "WyJDalJJVW5GUFExTkVaSFI2YzJkQlFURjFabEZDUnkwdExTMHRMUzB0TFhscFltUmpOVUZCUVVGQlIycFZiMGxaVGtsMGNXZEJFZ1pCUVRJNE1UY2FDd2pRaGdNUUFob0RWVk5FT0J4dzBJWUQiLFtbIlNKVSIsIjIwMjYtMDUtMDIiLCJNSUEiLG51bGwsIkFBIiwiMjgxNyJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Luis Munoz Marin International Airport",
+            "id": "SJU",
+            "time": "2026-05-02 11:50"
+          },
+          "arrival_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2026-05-02 14:50"
+          },
+          "duration": 180,
+          "airplane": "Airbus A321neo",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 3202",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 235 kg"
+          ]
+        }
+      ],
+      "total_duration": 180,
+      "carbon_emissions": {
+        "this_flight": 235000,
+        "typical_for_this_route": 261000,
+        "difference_percent": -10
+      },
+      "price": 500,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "Checked baggage for a fee",
+        "Bag and fare conditions depend on the return flight"
+      ],
+      "departure_token": "WyJDalJJVW5GUFExTkVaSFI2YzJkQlFURjFabEZDUnkwdExTMHRMUzB0TFhscFltUmpOVUZCUVVGQlIycFZiMGxaVGtsMGNXZEJFZ1pCUVRNeU1ESWFDd2pRaGdNUUFob0RWVk5FT0J4dzBJWUQiLFtbIlNKVSIsIjIwMjYtMDUtMDIiLCJNSUEiLG51bGwsIkFBIiwiMzIwMiJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Luis Munoz Marin International Airport",
+            "id": "SJU",
+            "time": "2026-05-02 13:50"
+          },
+          "arrival_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2026-05-02 16:50"
+          },
+          "duration": 180,
+          "airplane": "Boeing 737",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 2838",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 274 kg"
+          ]
+        }
+      ],
+      "total_duration": 180,
+      "carbon_emissions": {
+        "this_flight": 274000,
+        "typical_for_this_route": 261000,
+        "difference_percent": 5
+      },
+      "price": 604,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "Checked baggage for a fee",
+        "Bag and fare conditions depend on the return flight"
+      ],
+      "departure_token": "WyJDalJJVW5GUFExTkVaSFI2YzJkQlFURjFabEZDUnkwdExTMHRMUzB0TFhscFltUmpOVUZCUVVGQlIycFZiMGxaVGtsMGNXZEJFZ1pCUVRJNE16Z2FDd2p3MXdNUUFob0RWVk5FT0J4dzhOY0QiLFtbIlNKVSIsIjIwMjYtMDUtMDIiLCJNSUEiLG51bGwsIkFBIiwiMjgzOCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Luis Munoz Marin International Airport",
+            "id": "SJU",
+            "time": "2026-05-02 15:50"
+          },
+          "arrival_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2026-05-02 18:50"
+          },
+          "duration": 180,
+          "airplane": "Airbus A321neo",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 2834",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 235 kg"
+          ]
+        }
+      ],
+      "total_duration": 180,
+      "carbon_emissions": {
+        "this_flight": 235000,
+        "typical_for_this_route": 261000,
+        "difference_percent": -10
+      },
+      "price": 604,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "Checked baggage for a fee",
+        "Bag and fare conditions depend on the return flight"
+      ],
+      "departure_token": "WyJDalJJVW5GUFExTkVaSFI2YzJkQlFURjFabEZDUnkwdExTMHRMUzB0TFhscFltUmpOVUZCUVVGQlIycFZiMGxaVGtsMGNXZEJFZ1pCUVRJNE16UWFDd2p3MXdNUUFob0RWVk5FT0J4dzhOY0QiLFtbIlNKVSIsIjIwMjYtMDUtMDIiLCJNSUEiLG51bGwsIkFBIiwiMjgzNCJdXV0="
+    }
+  ],
+  "other_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Luis Munoz Marin International Airport",
+            "id": "SJU",
+            "time": "2026-05-02 07:00"
+          },
+          "arrival_airport": {
+            "name": "George Bush Intercontinental Airport",
+            "id": "IAH",
+            "time": "2026-05-02 10:51"
+          },
+          "duration": 291,
+          "airplane": "Boeing 737",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 1644",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 510 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "George Bush Intercontinental Airport",
+            "id": "IAH",
+            "time": "2026-05-02 12:00"
+          },
+          "arrival_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2026-05-02 15:25"
+          },
+          "duration": 145,
+          "airplane": "Boeing 737",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 410",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 286 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 69,
+          "name": "George Bush Intercontinental Airport",
+          "id": "IAH"
+        }
+      ],
+      "total_duration": 505,
+      "carbon_emissions": {
+        "this_flight": 797000,
+        "typical_for_this_route": 261000,
+        "difference_percent": 205
+      },
+      "price": 650,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "extensions": [
+        "Checked baggage for a fee",
+        "Bag and fare conditions depend on the return flight"
+      ],
+      "departure_token": "WyJDalJJVW5GUFExTkVaSFI2YzJkQlFURjFabEZDUnkwdExTMHRMUzB0TFhscFltUmpOVUZCUVVGQlIycFZiMGxaVGtsMGNXZEJFZ3hWUVRFMk5EUjhWVUUwTVRBYUN3am8rd01RQWhvRFZWTkVPQnh3NlBzRCIsW1siU0pVIiwiMjAyNi0wNS0wMiIsIklBSCIsbnVsbCwiVUEiLCIxNjQ0Il0sWyJJQUgiLCIyMDI2LTA1LTAyIiwiTUlBIixudWxsLCJVQSIsIjQxMCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Luis Munoz Marin International Airport",
+            "id": "SJU",
+            "time": "2026-05-02 06:15"
+          },
+          "arrival_airport": {
+            "name": "Hartsfield-Jackson Atlanta International Airport",
+            "id": "ATL",
+            "time": "2026-05-02 10:16"
+          },
+          "duration": 241,
+          "airplane": "Boeing 757",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 1879",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 516 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Hartsfield-Jackson Atlanta International Airport",
+            "id": "ATL",
+            "time": "2026-05-02 13:45"
+          },
+          "arrival_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2026-05-02 15:43"
+          },
+          "duration": 118,
+          "airplane": "Boeing 757",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 1323",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 255 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 209,
+          "name": "Hartsfield-Jackson Atlanta International Airport",
+          "id": "ATL"
+        }
+      ],
+      "total_duration": 568,
+      "carbon_emissions": {
+        "this_flight": 772000,
+        "typical_for_this_route": 261000,
+        "difference_percent": 196
+      },
+      "price": 658,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "extensions": [
+        "Checked baggage for a fee",
+        "Bag and fare conditions depend on the return flight"
+      ],
+      "departure_token": "WyJDalJJVW5GUFExTkVaSFI2YzJkQlFURjFabEZDUnkwdExTMHRMUzB0TFhscFltUmpOVUZCUVVGQlIycFZiMGxaVGtsMGNXZEJFZzFFVERFNE56bDhSRXd4TXpJekdnc0lpSUlFRUFJYUExVlRSRGdjY0lpQ0JBPT0iLFtbIlNKVSIsIjIwMjYtMDUtMDIiLCJBVEwiLG51bGwsIkRMIiwiMTg3OSJdLFsiQVRMIiwiMjAyNi0wNS0wMiIsIk1JQSIsbnVsbCwiREwiLCIxMzIzIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Luis Munoz Marin International Airport",
+            "id": "SJU",
+            "time": "2026-05-02 05:45"
+          },
+          "arrival_airport": {
+            "name": "Orlando International Airport",
+            "id": "MCO",
+            "time": "2026-05-02 09:00"
+          },
+          "duration": 195,
+          "airplane": "Boeing 737",
+          "airline": "Southwest",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/WN.png",
+          "travel_class": "Economy",
+          "flight_number": "WN 4282",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 313 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Orlando International Airport",
+            "id": "MCO",
+            "time": "2026-05-02 10:15"
+          },
+          "arrival_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2026-05-02 11:25"
+          },
+          "duration": 70,
+          "airplane": "Boeing 737-700 (Scimitar Winglets) Pax",
+          "airline": "Southwest",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/WN.png",
+          "travel_class": "Economy",
+          "flight_number": "WN 3684",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi",
+            "Stream media to your device",
+            "Carbon emissions estimate: 140 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 75,
+          "name": "Orlando International Airport",
+          "id": "MCO"
+        }
+      ],
+      "total_duration": 340,
+      "carbon_emissions": {
+        "this_flight": 455000,
+        "typical_for_this_route": 261000,
+        "difference_percent": 74
+      },
+      "price": 716,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/WN.png",
+      "extensions": [
+        "Checked baggage for a fee",
+        "Bag and fare conditions depend on the return flight"
+      ],
+      "departure_token": "WyJDalJJVW5GUFExTkVaSFI2YzJkQlFURjFabEZDUnkwdExTMHRMUzB0TFhscFltUmpOVUZCUVVGQlIycFZiMGxaVGtsMGNXZEJFZzFYVGpReU9ESjhWMDR6TmpnMEdnc0lzSzhFRUFJYUExVlRSRGdjY0xDdkJBPT0iLFtbIlNKVSIsIjIwMjYtMDUtMDIiLCJNQ08iLG51bGwsIldOIiwiNDI4MiJdLFsiTUNPIiwiMjAyNi0wNS0wMiIsIk1JQSIsbnVsbCwiV04iLCIzNjg0Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Luis Munoz Marin International Airport",
+            "id": "SJU",
+            "time": "2026-05-02 06:15"
+          },
+          "arrival_airport": {
+            "name": "Hartsfield-Jackson Atlanta International Airport",
+            "id": "ATL",
+            "time": "2026-05-02 10:16"
+          },
+          "duration": 241,
+          "airplane": "Boeing 757",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 1879",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 516 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Hartsfield-Jackson Atlanta International Airport",
+            "id": "ATL",
+            "time": "2026-05-02 11:00"
+          },
+          "arrival_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2026-05-02 12:58"
+          },
+          "duration": 118,
+          "airplane": "Boeing 757",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 1332",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 255 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 44,
+          "name": "Hartsfield-Jackson Atlanta International Airport",
+          "id": "ATL"
+        }
+      ],
+      "total_duration": 403,
+      "carbon_emissions": {
+        "this_flight": 772000,
+        "typical_for_this_route": 261000,
+        "difference_percent": 196
+      },
+      "price": 878,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "extensions": [
+        "Checked baggage for a fee",
+        "Bag and fare conditions depend on the return flight"
+      ],
+      "departure_token": "WyJDalJJVW5GUFExTkVaSFI2YzJkQlFURjFabEZDUnkwdExTMHRMUzB0TFhscFltUmpOVUZCUVVGQlIycFZiMGxaVGtsMGNXZEJFZzFFVERFNE56bDhSRXd4TXpNeUdnc0krSzBGRUFJYUExVlRSRGdjY1BpdEJRPT0iLFtbIlNKVSIsIjIwMjYtMDUtMDIiLCJBVEwiLG51bGwsIkRMIiwiMTg3OSJdLFsiQVRMIiwiMjAyNi0wNS0wMiIsIk1JQSIsbnVsbCwiREwiLCIxMzMyIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Luis Munoz Marin International Airport",
+            "id": "SJU",
+            "time": "2026-05-02 07:30"
+          },
+          "arrival_airport": {
+            "name": "Hartsfield-Jackson Atlanta International Airport",
+            "id": "ATL",
+            "time": "2026-05-02 11:30"
+          },
+          "duration": 240,
+          "airplane": "Boeing 757",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 1763",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 516 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Hartsfield-Jackson Atlanta International Airport",
+            "id": "ATL",
+            "time": "2026-05-02 12:34"
+          },
+          "arrival_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2026-05-02 14:33"
+          },
+          "duration": 119,
+          "airplane": "Boeing 757",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 1579",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 255 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 64,
+          "name": "Hartsfield-Jackson Atlanta International Airport",
+          "id": "ATL"
+        }
+      ],
+      "total_duration": 423,
+      "carbon_emissions": {
+        "this_flight": 772000,
+        "typical_for_this_route": 261000,
+        "difference_percent": 196
+      },
+      "price": 878,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "extensions": [
+        "Checked baggage for a fee",
+        "Bag and fare conditions depend on the return flight"
+      ],
+      "departure_token": "WyJDalJJVW5GUFExTkVaSFI2YzJkQlFURjFabEZDUnkwdExTMHRMUzB0TFhscFltUmpOVUZCUVVGQlIycFZiMGxaVGtsMGNXZEJFZzFFVERFM05qTjhSRXd4TlRjNUdnc0krSzBGRUFJYUExVlRSRGdjY1BpdEJRPT0iLFtbIlNKVSIsIjIwMjYtMDUtMDIiLCJBVEwiLG51bGwsIkRMIiwiMTc2MyJdLFsiQVRMIiwiMjAyNi0wNS0wMiIsIk1JQSIsbnVsbCwiREwiLCIxNTc5Il1dXQ=="
+    }
+  ],
+  "price_insights": {
+    "lowest_price": 450,
+    "price_level": "typical",
+    "typical_price_range": [
+      290,
+      560
+    ]
+  },
+  "airports": [
+    {
+      "departure": [
+        {
+          "airport": {
+            "id": "SJU",
+            "name": "Luis Munoz Marin International Airport"
+          },
+          "city": "San Juan",
+          "country": "Puerto Rico",
+          "country_code": "PR",
+          "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTftx6w9oAuwZ6EL1kfaTYqN9aPgmcV3sMgk3J3b_C0S5IiHrsf0t-rwCXrzrK1uEWZevs4LhKQ65j-5g",
+          "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRoenAheiHgUnXvuiIOEyO3eBCMdy72SZOZ7DdkQ4mwfWY-XfkZpDcNevhm85RCYpmhz2GLMvGVnjE5YoXbkXQlAfQdPM9z-sJfsLoUbm4"
+        }
+      ],
+      "arrival": [
+        {
+          "airport": {
+            "id": "MIA",
+            "name": "Miami International Airport"
+          },
+          "city": "Miami",
+          "country": "United States",
+          "country_code": "US",
+          "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRjsG6ybk9C2oSVnPZUal-6l7EimKLf5gtMAhOumgD16nXBwB4X0lHH3nh-178HKbonabZtnDMdZKfDEQ",
+          "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRScvUK_JtYRXmQWoXHiT98Ajl1KTuUVO40d0Q678OpK1xyyWI8VIkHqzXE9BHfY5R35UpgbeEdcf1IhMDncXwDo29wOABY9MIUzCFLkwU"
+        }
+      ]
+    },
+    {
+      "departure": [
+        {
+          "airport": {
+            "id": "MIA",
+            "name": "Miami International Airport"
+          },
+          "city": "Miami",
+          "country": "United States",
+          "country_code": "US",
+          "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRjsG6ybk9C2oSVnPZUal-6l7EimKLf5gtMAhOumgD16nXBwB4X0lHH3nh-178HKbonabZtnDMdZKfDEQ",
+          "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRScvUK_JtYRXmQWoXHiT98Ajl1KTuUVO40d0Q678OpK1xyyWI8VIkHqzXE9BHfY5R35UpgbeEdcf1IhMDncXwDo29wOABY9MIUzCFLkwU"
+        }
+      ],
+      "arrival": [
+        {
+          "airport": {
+            "id": "SJU",
+            "name": "Luis Munoz Marin International Airport"
+          },
+          "city": "San Juan",
+          "country": "Puerto Rico",
+          "country_code": "PR",
+          "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTftx6w9oAuwZ6EL1kfaTYqN9aPgmcV3sMgk3J3b_C0S5IiHrsf0t-rwCXrzrK1uEWZevs4LhKQ65j-5g",
+          "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRoenAheiHgUnXvuiIOEyO3eBCMdy72SZOZ7DdkQ4mwfWY-XfkZpDcNevhm85RCYpmhz2GLMvGVnjE5YoXbkXQlAfQdPM9z-sJfsLoUbm4"
+        }
+      ]
+    }
+  ]
+}
