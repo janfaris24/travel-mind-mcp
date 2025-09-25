@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: travel-assistant-mcp
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    plan: free
+    environmentGroup: travel-mcp-env
+    envVars:
+      - key: SERPAPI_KEY
+        sync: false
+      - key: WEATHERSTACK_KEY
+        sync: false
+      - key: PYTHON_VERSION
+        value: 3.12.1
