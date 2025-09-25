@@ -2,12 +2,7 @@
 """
 Travel Assistant MCP Server
 A comprehensive MCP server providing travel-related services including:
-- Flight search
-- Hotel search  
-- Weather information
-- Event search
-- Finance/currency data
-- Geocoding services
+- Flight search and other travel services
 """
 
 import os
@@ -16,146 +11,125 @@ from pathlib import Path
 import uvicorn
 from fastapi import FastAPI
 
-# Add all server directories to Python path
+# Add flight search to path
 current_dir = Path(__file__).parent
 sys.path.append(str(current_dir / "flight-search"))
-sys.path.append(str(current_dir / "hotel-search"))
-sys.path.append(str(current_dir / "weather-search"))
-sys.path.append(str(current_dir / "event-search"))
-sys.path.append(str(current_dir / "finance-search"))
-sys.path.append(str(current_dir / "geocoder"))
 
-# Create FastAPI app directly
-app = FastAPI(title="Travel Assistant MCP Server", version="1.0.0")
-
-@app.get("/")
-async def root():
-    return {
-        "message": "Travel Assistant MCP Server",
-        "version": "1.0.0",
-        "services": [
-            "flight-search",
-            "hotel-search", 
-            "weather",
-            "events",
-            "finance",
-            "geocoding"
-        ],
-        "status": "running",
-        "endpoints": {
-            "/": "Service information",
-            "/health": "Health check",
-            "/flight-search": "Flight search service",
-            "/hotel-search": "Hotel search service", 
-            "/weather": "Weather service",
-            "/events": "Event search service",
-            "/finance": "Finance service",
-            "/geocoding": "Geocoding service"
+def create_app():
+    """Create the main FastAPI application"""
+    
+    # Create main app
+    app = FastAPI(
+        title="Travel Assistant MCP Server",
+        version="1.0.0",
+        description="Travel services MCP server providing flight search and other travel tools"
+    )
+    
+    @app.get("/")
+    async def root():
+        return {
+            "message": "Travel Assistant MCP Server",
+            "version": "1.0.0",
+            "status": "running",
+            "services": ["flight-search"],
+            "endpoints": {
+                "/": "Service information",
+                "/health": "Health check",
+                "/docs": "API documentation"
+            }
         }
-    }
-
-@app.get("/health")
-async def health():
-    return {"status": "healthy", "message": "Travel Assistant MCP Server is running"}
-
-# Import individual servers to register their endpoints
-def register_services():
-    """Import and register all MCP services"""
-    services_registered = []
     
+    @app.get("/health")
+    async def health():
+        return {"status": "healthy", "message": "Server is running"}
+    
+    # Import and integrate the flight search tools
     try:
-        from flight_server import mcp as flight_mcp
-        # Mount flight search at /flight-search
-        flight_app = flight_mcp.create_app()  
-        app.mount("/flight-search", flight_app)
-        services_registered.append("flight-search")
-        print("✓ Registered flight search service at /flight-search")
+        from flight_server import search_flights, get_flight_details, filter_flights_by_price, filter_flights_by_airline
+        
+        # Add the flight search tools as API endpoints
+        @app.post("/search-flights")
+        async def api_search_flights(
+            departure_id: str,
+            arrival_id: str,
+            outbound_date: str,
+            return_date: str = None,
+            trip_type: int = 1,
+            adults: int = 1,
+            children: int = 0,
+            infants_in_seat: int = 0,
+            infants_on_lap: int = 0,
+            travel_class: int = 1,
+            currency: str = "USD",
+            country: str = "us",
+            language: str = "en",
+            max_results: int = 10
+        ):
+            """Search for flights"""
+            try:
+                result = search_flights(
+                    departure_id=departure_id,
+                    arrival_id=arrival_id,
+                    outbound_date=outbound_date,
+                    return_date=return_date,
+                    trip_type=trip_type,
+                    adults=adults,
+                    children=children,
+                    infants_in_seat=infants_in_seat,
+                    infants_on_lap=infants_on_lap,
+                    travel_class=travel_class,
+                    currency=currency,
+                    country=country,
+                    language=language,
+                    max_results=max_results
+                )
+                return {"success": True, "data": result}
+            except Exception as e:
+                return {"success": False, "error": str(e)}
+        
+        @app.get("/flight-details/{search_id}")
+        async def api_get_flight_details(search_id: str):
+            """Get detailed flight information"""
+            try:
+                result = get_flight_details(search_id)
+                return {"success": True, "data": result}
+            except Exception as e:
+                return {"success": False, "error": str(e)}
+        
+        print("✓ Successfully integrated flight search tools")
+        
     except Exception as e:
-        print(f"Warning: Could not register flight service: {e}")
+        print(f"Warning: Could not integrate flight search tools: {e}")
+        
+        @app.get("/error")
+        async def error_info():
+            return {"error": f"Flight search service unavailable: {str(e)}"}
     
-    try:
-        from hotel_server import mcp as hotel_mcp
-        hotel_app = hotel_mcp.create_app()
-        app.mount("/hotel-search", hotel_app)
-        services_registered.append("hotel-search")
-        print("✓ Registered hotel search service at /hotel-search")
-    except Exception as e:
-        print(f"Warning: Could not register hotel service: {e}")
-    
-    try:
-        # Try weather_server first, then weatherstack_server
-        try:
-            from weather_server import mcp as weather_mcp
-            weather_app = weather_mcp.create_app()
-            app.mount("/weather", weather_app)
-            print("✓ Registered weather service at /weather")
-        except:
-            from weatherstack_server import mcp as weather_mcp
-            weather_app = weather_mcp.create_app()
-            app.mount("/weather", weather_app)
-            print("✓ Registered weatherstack service at /weather")
-        services_registered.append("weather")
-    except Exception as e:
-        print(f"Warning: Could not register weather service: {e}")
-    
-    try:
-        from event_server import mcp as event_mcp
-        event_app = event_mcp.create_app()
-        app.mount("/events", event_app)
-        services_registered.append("events")
-        print("✓ Registered event search service at /events")
-    except Exception as e:
-        print(f"Warning: Could not register event service: {e}")
-    
-    try:
-        # Try finance_server first, then finance_search_server
-        try:
-            from finance_server import mcp as finance_mcp
-            finance_app = finance_mcp.create_app()
-            app.mount("/finance", finance_app)
-            print("✓ Registered finance service at /finance")
-        except:
-            from finance_search_server import mcp as finance_mcp
-            finance_app = finance_mcp.create_app()
-            app.mount("/finance", finance_app)
-            print("✓ Registered finance search service at /finance")
-        services_registered.append("finance")
-    except Exception as e:
-        print(f"Warning: Could not register finance service: {e}")
-    
-    try:
-        from geocoder_server import mcp as geocoder_mcp
-        geocoder_app = geocoder_mcp.create_app()
-        app.mount("/geocoding", geocoder_app)
-        services_registered.append("geocoding")
-        print("✓ Registered geocoding service at /geocoding")
-    except Exception as e:
-        print(f"Warning: Could not register geocoding service: {e}")
-    
-    return services_registered
+    return app
 
 def main():
-    """Main entry point for the travel assistant MCP server"""
+    """Main entry point"""
     print("Travel Assistant MCP Server")
-    print("Registering services...")
+    print("Initializing...")
     
-    services = register_services()
+    # Create the app
+    app = create_app()
     
-    print(f"\n✓ Successfully registered {len(services)} services:")
-    for service in services:
-        print(f"  - {service}")
+    # Get port from environment variable
+    port_str = os.getenv("PORT", "8000")
+    if port_str == "" or port_str is None:
+        port = 8000
+    else:
+        try:
+            port = int(port_str)
+        except ValueError:
+            print(f"Invalid PORT value: '{port_str}', using default 8000")
+            port = 8000
     
-    print("\nAvailable endpoints:")
-    print("- GET /: Service information")
-    print("- GET /health: Health check")
-    for service in services:
-        print(f"- /{service}: {service.replace('-', ' ').title()} service")
-    
-    # Get port from environment variable (Render provides PORT)
-    port = int(os.getenv("PORT", 8000))
     host = "0.0.0.0"
     
-    print(f"\nStarting server on {host}:{port}")
+    print(f"Starting server on {host}:{port}")
+    print("API Documentation available at: /docs")
     
     # Start the server
     uvicorn.run(app, host=host, port=port)
