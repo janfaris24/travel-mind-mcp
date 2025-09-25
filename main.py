@@ -11,9 +11,14 @@ from pathlib import Path
 import uvicorn
 from fastapi import FastAPI
 
-# Add flight search to path
+# Add all server directories to Python path
 current_dir = Path(__file__).parent
 sys.path.append(str(current_dir / "flight-search"))
+sys.path.append(str(current_dir / "hotel-search"))
+sys.path.append(str(current_dir / "weather-search"))
+sys.path.append(str(current_dir / "event-search"))
+sys.path.append(str(current_dir / "finance-search"))
+sys.path.append(str(current_dir / "geocoder"))
 
 def create_app():
     """Create the main FastAPI application"""
@@ -31,7 +36,7 @@ def create_app():
             "message": "Travel Assistant MCP Server",
             "version": "1.0.0",
             "status": "running",
-            "services": ["flight-search"],
+            "services": ["flight-search", "hotel-search", "weather", "events", "finance", "geocoding"],
             "endpoints": {
                 "/": "Service information",
                 "/health": "Health check",
@@ -100,10 +105,231 @@ def create_app():
         
     except Exception as e:
         print(f"Warning: Could not integrate flight search tools: {e}")
+    
+    # Hotel Search Integration
+    try:
+        from hotel_server import search_hotels, get_hotel_details
         
-        @app.get("/error")
-        async def error_info():
-            return {"error": f"Flight search service unavailable: {str(e)}"}
+        @app.post("/search-hotels")
+        async def api_search_hotels(
+            location: str,
+            check_in_date: str,
+            check_out_date: str,
+            adults: int = 2,
+            children: int = 0,
+            rooms: int = 1,
+            currency: str = "USD",
+            country: str = "us",
+            language: str = "en",
+            max_results: int = 10
+        ):
+            """Search for hotels"""
+            try:
+                result = search_hotels(
+                    location=location,
+                    check_in_date=check_in_date,
+                    check_out_date=check_out_date,
+                    adults=adults,
+                    children=children,
+                    rooms=rooms,
+                    currency=currency,
+                    country=country,
+                    language=language,
+                    max_results=max_results
+                )
+                return {"success": True, "data": result}
+            except Exception as e:
+                return {"success": False, "error": str(e)}
+        
+        @app.get("/hotel-details/{search_id}")
+        async def api_get_hotel_details(search_id: str):
+            """Get detailed hotel information"""
+            try:
+                result = get_hotel_details(search_id)
+                return {"success": True, "data": result}
+            except Exception as e:
+                return {"success": False, "error": str(e)}
+        
+        print("✓ Successfully integrated hotel search tools")
+        
+    except Exception as e:
+        print(f"Warning: Could not integrate hotel search tools: {e}")
+    
+    # Weather Integration
+    try:
+        from weatherstack_server import get_current_weather, get_weather_forecast
+        
+        @app.get("/weather/current")
+        async def api_get_current_weather(
+            location: str,
+            units: str = "m"
+        ):
+            """Get current weather for a location"""
+            try:
+                result = get_current_weather(location=location, units=units)
+                return {"success": True, "data": result}
+            except Exception as e:
+                return {"success": False, "error": str(e)}
+        
+        @app.get("/weather/forecast")
+        async def api_get_weather_forecast(
+            location: str,
+            forecast_days: int = 3,
+            hourly: bool = False,
+            units: str = "m"
+        ):
+            """Get weather forecast for a location"""
+            try:
+                result = get_weather_forecast(
+                    location=location,
+                    forecast_days=forecast_days,
+                    hourly=hourly,
+                    units=units
+                )
+                return {"success": True, "data": result}
+            except Exception as e:
+                return {"success": False, "error": str(e)}
+        
+        print("✓ Successfully integrated weather tools")
+        
+    except Exception as e:
+        print(f"Warning: Could not integrate weather tools: {e}")
+    
+    # Event Search Integration
+    try:
+        from event_server import search_events, get_event_details
+        
+        @app.post("/search-events")
+        async def api_search_events(
+            query: str,
+            location: str = None,
+            date_range_start: str = None,
+            date_range_end: str = None,
+            category: str = None,
+            max_results: int = 10
+        ):
+            """Search for events"""
+            try:
+                result = search_events(
+                    query=query,
+                    location=location,
+                    date_range_start=date_range_start,
+                    date_range_end=date_range_end,
+                    category=category,
+                    max_results=max_results
+                )
+                return {"success": True, "data": result}
+            except Exception as e:
+                return {"success": False, "error": str(e)}
+        
+        @app.get("/event-details/{search_id}")
+        async def api_get_event_details(search_id: str):
+            """Get detailed event information"""
+            try:
+                result = get_event_details(search_id)
+                return {"success": True, "data": result}
+            except Exception as e:
+                return {"success": False, "error": str(e)}
+        
+        print("✓ Successfully integrated event search tools")
+        
+    except Exception as e:
+        print(f"Warning: Could not integrate event search tools: {e}")
+    
+    # Finance Integration
+    try:
+        from finance_server import convert_currency, lookup_stock
+        
+        @app.get("/finance/convert-currency")
+        async def api_convert_currency(
+            from_currency: str,
+            to_currency: str,
+            amount: float = 1.0
+        ):
+            """Convert currency"""
+            try:
+                result = convert_currency(
+                    from_currency=from_currency,
+                    to_currency=to_currency,
+                    amount=amount
+                )
+                return {"success": True, "data": result}
+            except Exception as e:
+                return {"success": False, "error": str(e)}
+        
+        @app.get("/finance/stock/{symbol}")
+        async def api_lookup_stock(symbol: str):
+            """Look up stock information"""
+            try:
+                result = lookup_stock(symbol=symbol)
+                return {"success": True, "data": result}
+            except Exception as e:
+                return {"success": False, "error": str(e)}
+        
+        print("✓ Successfully integrated finance tools")
+        
+    except Exception as e:
+        print(f"Warning: Could not integrate finance tools: {e}")
+    
+    # Geocoding Integration
+    try:
+        from geocoder_server import geocode_location, reverse_geocode, calculate_distance
+        
+        @app.get("/geocoding/geocode")
+        async def api_geocode_location(
+            location: str,
+            max_results: int = 1
+        ):
+            """Geocode a location to get coordinates"""
+            try:
+                result = geocode_location(
+                    location=location,
+                    max_results=max_results
+                )
+                return {"success": True, "data": result}
+            except Exception as e:
+                return {"success": False, "error": str(e)}
+        
+        @app.get("/geocoding/reverse")
+        async def api_reverse_geocode(
+            latitude: float,
+            longitude: float
+        ):
+            """Reverse geocode coordinates to get location"""
+            try:
+                result = reverse_geocode(
+                    latitude=latitude,
+                    longitude=longitude
+                )
+                return {"success": True, "data": result}
+            except Exception as e:
+                return {"success": False, "error": str(e)}
+        
+        @app.get("/geocoding/distance")
+        async def api_calculate_distance(
+            lat1: float,
+            lon1: float,
+            lat2: float,
+            lon2: float,
+            unit: str = "km"
+        ):
+            """Calculate distance between two coordinates"""
+            try:
+                result = calculate_distance(
+                    lat1=lat1,
+                    lon1=lon1,
+                    lat2=lat2,
+                    lon2=lon2,
+                    unit=unit
+                )
+                return {"success": True, "data": result}
+            except Exception as e:
+                return {"success": False, "error": str(e)}
+        
+        print("✓ Successfully integrated geocoding tools")
+        
+    except Exception as e:
+        print(f"Warning: Could not integrate geocoding tools: {e}")
     
     return app
 
