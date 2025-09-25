@@ -7,9 +7,13 @@ A comprehensive MCP server providing travel-related services including:
 
 import os
 import sys
+import json
+import asyncio
 from pathlib import Path
 import uvicorn
-from fastapi import FastAPI
+from fastapi import FastAPI, Request, Response
+from fastapi.responses import StreamingResponse
+from sse_starlette.sse import EventSourceResponse
 
 # Add all server directories to Python path
 current_dir = Path(__file__).parent
@@ -330,6 +334,188 @@ def create_app():
         
     except Exception as e:
         print(f"Warning: Could not integrate geocoding tools: {e}")
+    
+    # Add MCP Protocol Support for Claude API Integration
+    @app.post("/sse")
+    async def mcp_sse_endpoint(request: Request):
+        """MCP Server-Sent Events endpoint for Claude API integration"""
+        
+        async def generate_mcp_events():
+            # Send initial connection event
+            yield {
+                "event": "connected",
+                "data": json.dumps({
+                    "type": "server_info",
+                    "server_name": "travel-assistant",
+                    "version": "1.0.0",
+                    "capabilities": {
+                        "tools": True,
+                        "resources": False,
+                        "prompts": False
+                    }
+                })
+            }
+            
+            # Send available tools
+            tools = [
+                {
+                    "name": "search_flights",
+                    "description": "Search for flights between airports",
+                    "inputSchema": {
+                        "type": "object",
+                        "properties": {
+                            "departure_id": {"type": "string", "description": "Departure airport code"},
+                            "arrival_id": {"type": "string", "description": "Arrival airport code"},
+                            "outbound_date": {"type": "string", "description": "Departure date YYYY-MM-DD"},
+                            "return_date": {"type": "string", "description": "Return date YYYY-MM-DD (optional)"},
+                            "adults": {"type": "integer", "default": 1}
+                        },
+                        "required": ["departure_id", "arrival_id", "outbound_date"]
+                    }
+                },
+                {
+                    "name": "search_hotels",
+                    "description": "Search for hotels in a location",
+                    "inputSchema": {
+                        "type": "object",
+                        "properties": {
+                            "location": {"type": "string", "description": "Location to search hotels"},
+                            "check_in_date": {"type": "string", "description": "Check-in date YYYY-MM-DD"},
+                            "check_out_date": {"type": "string", "description": "Check-out date YYYY-MM-DD"},
+                            "adults": {"type": "integer", "default": 2}
+                        },
+                        "required": ["location", "check_in_date", "check_out_date"]
+                    }
+                },
+                {
+                    "name": "get_current_weather",
+                    "description": "Get current weather for a location",
+                    "inputSchema": {
+                        "type": "object",
+                        "properties": {
+                            "location": {"type": "string", "description": "Location name or coordinates"}
+                        },
+                        "required": ["location"]
+                    }
+                },
+                {
+                    "name": "search_events",
+                    "description": "Search for events",
+                    "inputSchema": {
+                        "type": "object",
+                        "properties": {
+                            "query": {"type": "string", "description": "Event search query"},
+                            "location": {"type": "string", "description": "Location to search (optional)"}
+                        },
+                        "required": ["query"]
+                    }
+                },
+                {
+                    "name": "convert_currency",
+                    "description": "Convert currency amounts",
+                    "inputSchema": {
+                        "type": "object",
+                        "properties": {
+                            "from_currency": {"type": "string", "description": "Source currency code"},
+                            "to_currency": {"type": "string", "description": "Target currency code"},
+                            "amount": {"type": "number", "default": 1.0}
+                        },
+                        "required": ["from_currency", "to_currency"]
+                    }
+                },
+                {
+                    "name": "geocode_location",
+                    "description": "Get coordinates for a location",
+                    "inputSchema": {
+                        "type": "object",
+                        "properties": {
+                            "location": {"type": "string", "description": "Location to geocode"}
+                        },
+                        "required": ["location"]
+                    }
+                }
+            ]
+            
+            yield {
+                "event": "tools",
+                "data": json.dumps({
+                    "type": "tools_list",
+                    "tools": tools
+                })
+            }
+            
+            # Keep connection alive and handle tool calls
+            while True:
+                try:
+                    await asyncio.sleep(1)
+                    yield {
+                        "event": "heartbeat",
+                        "data": json.dumps({"type": "ping", "timestamp": asyncio.get_event_loop().time()})
+                    }
+                except asyncio.CancelledError:
+                    break
+                except Exception as e:
+                    yield {
+                        "event": "error",
+                        "data": json.dumps({"type": "error", "message": str(e)})
+                    }
+                    break
+        
+        return EventSourceResponse(
+            generate_mcp_events(),
+            headers={
+                "Cache-Control": "no-cache",
+                "Connection": "keep-alive",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Headers": "*",
+            }
+        )
+    
+    # Add MCP tool execution endpoint
+    @app.post("/mcp/tool")
+    async def mcp_tool_execution(request: Request):
+        """Execute MCP tools for Claude API integration"""
+        try:
+            data = await request.json()
+            tool_name = data.get("name")
+            tool_input = data.get("input", {})
+            
+            # Route to appropriate tool function
+            if tool_name == "search_flights":
+                from flight_server import search_flights
+                result = search_flights(**tool_input)
+                return {"success": True, "result": result}
+            
+            elif tool_name == "search_hotels":
+                from hotel_server import search_hotels
+                result = search_hotels(**tool_input)
+                return {"success": True, "result": result}
+            
+            elif tool_name == "get_current_weather":
+                from weatherstack_server import get_current_weather
+                result = get_current_weather(**tool_input)
+                return {"success": True, "result": result}
+            
+            elif tool_name == "search_events":
+                from event_server import search_events
+                result = search_events(**tool_input)
+                return {"success": True, "result": result}
+            
+            elif tool_name == "convert_currency":
+                from finance_server import convert_currency
+                result = convert_currency(**tool_input)
+                return {"success": True, "result": result}
+            
+            elif tool_name == "geocode_location":
+                from geocoder_server import geocode_location
+                result = geocode_location(**tool_input)
+                return {"success": True, "result": result}
+            
+            else:
+                return {"success": False, "error": f"Unknown tool: {tool_name}"}
+        
+        except Exception as e:
+            return {"success": False, "error": str(e)}
     
     return app
 
